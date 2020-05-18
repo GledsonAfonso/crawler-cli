@@ -1,5 +1,5 @@
 const { get } = require('./http-service');
-const { getTitleFrom, getEntryFrom, getNextPageUrlFrom } = require('../util/book-utils');
+const { getTitleFrom, getEntryFrom, getNextPageUrlFrom, getConfigurationFor } = require('../util/book-utils');
 
 const getPageFor = async (url, uri) => {
     const webpage = await get(url, uri);
@@ -11,4 +11,24 @@ const getPageFor = async (url, uri) => {
     return { title, entry, nextPageUrl };
 };
 
-module.exports = { getPageFor };
+const getPagesFor = async (book) => {
+    let pages = [];
+
+    const configuration = getConfigurationFor(book);
+
+    const fn = async (configuration) => {
+        const page = await getPageFor(...configuration);
+        pages.push(page);
+
+        if (page.nextPageUrl) {
+            configuration.uri = page.nextPageUrl;
+            await fn(configuration);
+        }
+    };
+
+    await fn(configuration);
+
+    return pages;
+};
+
+module.exports = { getPageFor, getPagesFor };

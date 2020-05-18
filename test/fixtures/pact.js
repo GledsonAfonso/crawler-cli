@@ -402,4 +402,224 @@ const firstPage = '\n' +
         '<p><a href="https://pactwebserial.wordpress.com/about/"><strong>About</strong></a>&#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#xA0;&#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#xA0;&#xA0;&#xA0; <strong><a href="https://pactwebserial.wordpress.com/2013/12/17/bonds-1-2/">Next Chapter</a></strong></p>\n' +
         '\t';
 
-module.exports = { firstPage };
+const lastPage = `
+\t\t<p><a href=\"https://pactwebserial.wordpress.com/2015/03/03/judgment-16-13/\"><strong>Last Chapter</strong> </a>&#xA0; &#xA0;&#xA0;&#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#xA0;&#xA0;&#xA0; <a href=\"https://wildbow.wordpress.com/2015/03/07/pact-sealed/\"><strong>The End</strong> <strong>(Afterword)</strong></a></p>
+<p>Wind, the purr of the engine, they blended together to make a white noise.&#xA0; His brain worked to make sense of it, and it created something very close to music, feeding into an almost zen-like sense of ease.&#xA0; Not quite <em>relaxation</em> &#x2013; he felt a tiny bit of fear with every car he passed, knowing how fragile a motorcyclist could be in an incidental collision, felt pure exhilaration running through him over the simple fact that he was on the road.</p>
+<p>Even with his helmet on, he could smell and taste the trees and grass.&#xA0; The faint aroma of gasoline and exhaust was one he very much enjoyed.&#xA0; When he passed wild growths of flowers on the side of the road, he could smell those, too.</p>
+<p>It was fresh air.&#xA0; When he breathed, it felt like more oxygen got to his lungs.&#xA0; There was a vague high that came with it.</p>
+<p>The cars around him had none of that.&#xA0; Some had their windows rolled down for the summer, but it was an attempt to escape the heat.&#xA0; When they looked out their windows, it was through just that &#x2013; a window.&#xA0; He had unrestricted vision in every direction.&#xA0; His body temperature was <em>perfect</em>, the wind sapping away the heat that soaked into the dark fabric of his jacket.</p>
+<p>He slowed down as traffic on the highway did.&#xA0; He didn&#x2019;t have to, he could have navigated between the gaps without much fuss, but he figured it was sensible, especially given that he wasn&#x2019;t alone.&#xA0; He was a little annoyed to have to do it, especially given the reason.&#xA0; The cars around him were slowing in attempt to take advantage of a slight rise and get a better look at a point further down the highway.&#xA0; It wasn&#x2019;t easy, given the trees that had been planted around here, obscuring the view.</p>
+<p>He could feel the fractional drop in temperature as he passed into the shade the first of the trees offered, and he smiled.</p>
+<p>These trees were his landmark.&#xA0; He raised a hand, signalling, even as he put his lights on.&#xA0; A glance over his shoulder, a double check, then a change of lanes.</p>
+<p>He could hear the faint shift in the sound of traffic.&#xA0; Another bike adjusting speed and direction, changing lanes to follow.</p>
+<p>The exit took them off the highway, onto a poorly maintained side road, one that was very easy to miss.&#xA0; He passed a spot where poles had once been holding a sign in place, but the signboard was gone.&#xA0; The trees obscured the view, leaving the site a passing curiosity.</p>
+<p>He signaled again, just to be sure his traveling companion wouldn&#x2019;t go down the wrong road.</p>
+<p>It took another ten minutes to get to their stop, going at a fairly easygoing pace on the poorly maintained road.&#xA0; Traffic had slowed because people were rubbernecking further ahead.&#xA0; The little booth had been erected at a spot with a better view.&#xA0; Well placed, in his estimation.</p>
+<p>It was a ways until they reached the town, but it offered a distant view of the buildings and the water that lay just a bit beyond.&#xA0; A trail marked the way down to the side of the lake.&#xA0; A family was already down there, kids splashing.</p>
+<p>He signaled again, well before he braked, just to be absolutely clear what he had in mind.&#xA0; He could smell the grease and the oil of the little stand well before he lifted up his visor.&#xA0; With his sinuses clear and his blood pumping, oxygen flowing through his veins, he might have said that he&#x2019;d never smelled anything half as good, but he&#x2019;d experienced this before.</p>
+<p>&#x201C;Oh my god, I could eat a whole cow,&#x201D; his companion said, behind him, echoing the thought.&#xA0; She pulled off her helmet, and shook her head to let her cornrows loose where they&#x2019;d bunched up closer to her neck.</p>
+<p>&#x201C;You should see the burgers here,&#x201D; he said.&#xA0; &#x201C;It&#x2019;s pretty close to eating a whole cow.&#x201D;</p>
+<p>She put down the kickstand to her bike, then approached, throwing her arms around him.&#xA0; He hugged her back, and they rocked in place.</p>
+<p>&#x201C;Thank you,&#x201D; she said, squeezing him tight.&#xA0; &#x201C;For convincing me to do this.&#x201D;</p>
+<p>&#x201C;You&#x2019;re very welcome,&#x201D; he said, smiling.&#xA0; He shifted his grip on her until one arm encircled her lower back.&#xA0; He faced the surroundings with her.&#xA0; The water, the trees, and a distant ghost town with far too many trees blocking the view.&#xA0; Sating curiosity without quite <em>satisfying</em> it.</p>
+<p>&#x201C;What happened?&#x201D; she asked.</p>
+<p>&#x201C;I asked, last time I was around.&#xA0; Rumor is that it was something about contaminated water.&#xA0; Dumping way back when, leeching into the town&#x2019;s infrastructure.&#xA0; I guess it was too expensive to salvage.&#xA0; I don&#x2019;t know the full story.&#x201D;</p>
+<p>&#x201C;Why the trees, though?&#x201D;</p>
+<p>He shrugged.&#xA0; &#x201C;Maybe they thought it would be an eyesore.&#x201D;</p>
+<p>&#x201C;We could go back and see if there&#x2019;s a road we could take to go take a look?&#x201D; she suggested.</p>
+<p>&#x201C;Shall we grab some food, first, miss Deidre?&#x201D;</p>
+<p>&#x201C;Yes,&#x201D; she said, without hesitation.&#xA0; She smiled.&#xA0; &#x201C;Definitely.&#x201D;</p>
+<p>There were three other people in line before their turn came up.&#xA0; He let Deidre order first, then gave his own order to the man with a mullet.&#xA0; Burger with bacon and cheese, sweet potato fries, and fried zucchini.</p>
+<p>He enjoyed the ambient chatter and people watching before the food was done.&#xA0; Food in hand, they left their bikes behind and walked down the path to the water, locking up their helmets and bringing their backpacks, just to keep the essentials on hand.</p>
+<p>It took them a minute to get settled, sitting on a fallen tree, halfway between the water and the little roadside booth.</p>
+<p>They took a minute to get straight to eating.&#xA0; A kid down by the water screamed.&#xA0; The beach itself was as much rock as sand, but the child didn&#x2019;t seem to mind, running away from the waves as they approached, then chasing them as they retreated.</p>
+<p>&#x201C;Is this the place?&#x201D; Deidre asked.</p>
+<p>&#x201C;The place?&#x201D;</p>
+<p>&#x201C;You said there was one place you wanted to stop by, after Toronto but before Ottawa.&#xA0; Process of elimination&#x2026;&#x201D;</p>
+<p>&#x201C;Ah, yeah.&#xA0; This is the place.&#x201D;</p>
+<p>&#x201C;You never said <em>why</em>.&#xA0; If there was a better view of the town, that&#x2019;d be neat, ghost towns can be cool, but there isn&#x2019;t.&#x201D;</p>
+<p>&#x201C;It sounds dumb if I say it out loud.&#x201D;</p>
+<p>&#x201C;Dumb?&#x201D;</p>
+<p>&#x201C;You wouldn&#x2019;t believe me,&#x201D; he said.</p>
+<p>She arched her fine eyebrows at him.</p>
+<p>&#x201C;Came through this area for the first time last year&#x2026; it <em>really</em> sounds dumb if I say it out loud.&#x201D;</p>
+<p>&#x201C;But you still plotted our entire road trip around this,&#x201D; she said, before she took another bite of her pogo.&#xA0; &#x201C;There was a detour.&#x201D;</p>
+<p>&#x201C;Yeah.&#x201D;</p>
+<p>&#x201C;You can convince me to come with you on a spur-of-the-moment road trip, but you can&#x2019;t explain this?&#x201D;</p>
+<p>He smiled, taking a bite so his mouth would be full and unable to respond.&#xA0; She smirked at him.</p>
+<p>&#x201C;You&#x2019;re going to have to tell me sooner or later,&#x201D; she said.</p>
+<p>He smiled, mouth still full, and nodded.</p>
+<p>&#x201C;Out with it, Dominic.&#x201D;</p>
+<p>He finished chewing, took a deep breath, then confessed, &#x201C;I came through here last summer, and again in the early fall, because I was curious.&#xA0; Nothing came of it in the fall, but-&#x201D;</p>
+<p>&#x201C;I&#x2019;m not following.&#x201D;</p>
+<p>&#x201C;It&#x2019;s easier if I show you.&#xA0; Can I get you to take my burger?&#x201D;</p>
+<p>Deidre did, balancing the paper container on her knee.</p>
+<p>Dominic licked his lips, rolled his shoulders, clearing his throat.</p>
+<p>&#x201C;Stop making such a show out of it.&#x201D;</p>
+<p>&#x201C;<em>Ahem,</em>&#x201D; he said.&#xA0; He cupped his hands together, thumbs side-by-side, then raised his hands to his mouth.</p>
+<p>He managed a chirping sound.&#xA0; It took some adjustment until it was clearer and sharper.</p>
+<p>&#x201C;That was pretty bad,&#x201D; Deidre said.</p>
+<p>&#x201C;Yeah.&#x201D;</p>
+<p>&#x201C;If any bird heard that, it&#x2019;ll probably take it as an insult.&#x201D;</p>
+<p>He smirked, taking his burger back.</p>
+<p>No sooner did he have the burger in his hand when a bird appeared, surprising him enough that Dominic almost dropped his lunch.</p>
+<p>&#x201C;Hey!&#x201D; he said, a short laugh escaping his lips.&#xA0; The bird was circling him, going a mile a minute.&#xA0; &#x201C;Hey!&#xA0; Little guy!&#x201D;</p>
+<p>The bird chirped in response, matching the amount of flight to the sheer amount of noise it was making.</p>
+<p>&#x201C;Hey, stop, stop.&#xA0; Settle down.&#xA0; Stop!&#xA0; Want a bit of sweet potato?&#x201D;</p>
+<p>The bird stopped in the next heartbeat, settling on his forearm.&#xA0; A sparrow, a fraction smaller than most sparrows he&#x2019;d seen.</p>
+<p>&#x201C;I&#x2019;ll take that as a yes,&#x201D; he said.&#xA0; He pinched off a bit of sweet potato fry and gave it over.</p>
+<p>The bird stopped its constant chirping just long enough to down the bit of fry, then it started chirping for more.</p>
+<p>&#x201C;Okay,&#x201D; Deidre said.&#xA0; &#x201C;That&#x2019;s almost adorable enough to justify the lengthy detour.&#x201D;</p>
+<p>&#x201C;Almost?&#x201D; Dom asked, in the same moment the sparrow turned its full attention toward her, chirping in time with his question.</p>
+<p>&#x201C;Almost,&#x201D; she held firm.</p>
+<p>&#x201C;Little guy came with me part of the way through the states last summer,&#x201D; he said.</p>
+<p>&#x201C;What?&#xA0; No way.&#x201D;</p>
+<p>&#x201C;Rode with me.&#xA0; Lost him a couple times, but he always caught up to me.&#xA0; I think he just really likes motorcycles.&#xA0; I think he&#x2019;s someone&#x2019;s pet, or he <em>was.</em>&#x201D;</p>
+<p>The bird chirped.</p>
+<p>&#x201C;Could it be a she?&#x201D; Deidre asked.</p>
+<p>The bird chirped again.&#xA0; It almost sounded indignant.</p>
+<p>&#x201C;No, pretty sure it&#x2019;s not a she,&#x201D; Dominic said.</p>
+<p>&#x201C;How do you know?&#xA0; Are you a bird expert?&#x201D;</p>
+<p>&#x201C;Definitely not a bird expert, but-&#x201D;</p>
+<p>&#x201C;I say she&#x2019;s a girl, then,&#x201D; Deidre said.</p>
+<p>The sparrow took flight.&#xA0; Flapping violently, as it moved from Dom&#x2019;s left wrist to his right shoulder.&#xA0; It perched there, paused, then fluttered violently, remaining in place, before stopping, feathers fluffed up.</p>
+<p>It chirped at her.</p>
+<p>&#x201C;Or not,&#x201D; she said.</p>
+<p>&#x201C;That&#x2019;s why,&#x201D; he said.&#xA0; &#x201C;I asked the same question, back then, and I got a very similar response.&#x201D;</p>
+<p>The bird settled, feathers going smooth, or <em>smoother</em>.&#xA0; It moved back to Dom&#x2019;s left wrist, before chirping for more food.&#xA0; It watched with rapt attention as he dipped his fried zucchini in cucumber sauce and took a bite.</p>
+<p>&#x201C;It&#x2019;s like it knew what I was saying,&#x201D; Deidre said.&#xA0; &#x201C;Do you understand me, little guy?&#x201D;</p>
+<p>The bird didn&#x2019;t take its attention off Dom&#x2019;s fingers as he reached for another sweet potato fry.&#xA0; It chirped, once, as if to remind him that it was there.</p>
+<p>&#x201C;If you chirp twice, I&#x2019;ll give you all the fries you want,&#x201D; she said.</p>
+<p>The bird didn&#x2019;t react.</p>
+<p>&#x201C;It was a pet,&#x201D; Dom said, with more confidence.&#xA0; He offered another bit of sweet potato fry.&#xA0; &#x201C;Had to be.&#xA0; It responded to your tone of voice, that&#x2019;s all.&#xA0; Probably reacts to a few key words, like the gender thing.&#x201D;</p>
+<p>&#x201C;Right,&#x201D; Deidre said.&#xA0; She frowned.</p>
+<p>&#x201C;Almost done?&#x201D; he asked.</p>
+<p>She nodded.&#xA0; &#x201C;Sure, but you&#x2019;re not.&#x201D;</p>
+<p>&#x201C;Almost.&#xA0; Come on.&#xA0; He&#x2019;s so funny with the motorcycle, I want to show you.&#x201D;</p>
+<p>He stuck the last mouthful of burger into his mouth, picked up his stuff, and led the way back up the path.&#xA0; The sparrow remained on his arm, staring at the paper container that still held some stray fries.</p>
+<p>They reached the little shack of a restaurant, and a few heads turned at the sight of the sparrow.&#xA0; As they approached the bikes that were parked on the far end of the road, the sparrow took off, perching between the handlebars, then to the second bike.</p>
+<p>It practically bounced in place with energy, seeming far too excited that there were two motorcycles.</p>
+<p>&#x201C;Okay, I have to admit, that is pretty funny.&#x201D;</p>
+<p>&#x201C;I didn&#x2019;t think he&#x2019;d go <em>this</em> nuts,&#x201D; Dom confessed.&#xA0; &#x201C;I don&#x2019;t think his peanut brain can wrap his head around the idea of there being two motorcycles in one place.&#x201D;</p>
+<p>The bird flew straight for him.&#xA0; He had to duck to avoid it, only to realize after the fact that it would have only grazed him.</p>
+<p>They both turned to see the bird disappearing off into the woods.</p>
+<p>&#x201C;Huh,&#x201D; Dom said.</p>
+<p>&#x201C;What was that you said about tone of voice?&#xA0; I think you hurt his feelings.&#x201D;</p>
+<p>&#x201C;Ha ha,&#x201D; he said, deadpan.</p>
+<p>&#x201C;Seriously though, the bird was funny.&#xA0; Thanks for showing me.&#x201D;</p>
+<p>&#x201C;Not a problem,&#x201D; Dominic said, but his attention was on the trees, his thoughts elsewhere.</p>
+<p>&#x201C;Would have been fun to have it follow along, but I guess it was a fluke thing, last year?&#x201D;</p>
+<p>&#x201C;Maybe,&#x201D; he said, his attention still elsewhere.</p>
+<p>Where did the bird go?</p>
+<p>&#x201C;Hey, Deids,&#x201D; he said.</p>
+<p>&#x201C;Yeah?&#x201D;</p>
+<p>&#x201C;Watch my stuff?&#x201D;</p>
+<p>&#x201C;Bathroom break?&#x201D;</p>
+<p>&#x201C;Nah, no,&#x201D; he said.&#xA0; Almost without taking his eyes off the trees, he pulled off his jacket and put it with his backpack on the seat of his bike, then headed down the path.&#xA0; Being still, without the benefit of the wind and the motion of the bike, he&#x2019;d accumulated a bit of sweat.</p>
+<p>He&#x2019;d tracked the direction the bird had gone.&#xA0; That meant veering off to the right, into thicker trees.&#xA0; He used his hands and arms to brush at the branches.</p>
+<p>The way wasn&#x2019;t easy.&#xA0; He made it far enough into the woods that he began to have doubts, to suspect that he&#x2019;d been wrong.</p>
+<p>But the bird had flown with <em>purpose</em>, hadn&#x2019;t it?</p>
+<p>The thick canopy made the way surprisingly dark.&#xA0; The light that filtered through did so in beams and as an ambient glow, lighting up the dust and pollen in the air.</p>
+<p>He heard a laugh.&#xA0; A girl&#x2019;s.</p>
+<p>He stopped, and he approached with a little more care.</p>
+<p>A murmur, the girl&#x2019;s voice, words inaudible.</p>
+<p>A chirp.&#xA0; The sparrow.</p>
+<p>He stopped.</p>
+<p>She was sitting by the water, back to a tree.&#xA0; He couldn&#x2019;t be sure if it was an old woman or a girl with platinum blond hair bleached whiter by the sun, but the voice, the laugh, and the fit of the seafoam colored sweatshirt she wore suggested the latter.</p>
+<p>The sparrow was perched on her finger, busy chirping.</p>
+<p>If he&#x2019;d waited any longer, Dominic might have felt like he was doing something wrong.</p>
+<p>&#x201C;Miss!&#x201D; he called out.</p>
+<p>The girl froze.</p>
+<p>&#x201C;Are you the sparrow trainer?&#xA0; I was wanting to ask.&#xA0; Last summer, I-&#x201D;</p>
+<p>There was a flutter, a flap.&#xA0; Not the sparrow that had perched on her finger.&#xA0; If it weren&#x2019;t for the branches right behind him, Dom might have fallen over backward.</p>
+<p>As it was, he caught himself, freezing with a sparrow just inches from his face, perched on his shoulder.</p>
+<p>The smaller sparrow arrived a moment later, flying his way.&#xA0; He put out a hand, and it settled on his knuckles.</p>
+<p>The girl was gone.&#xA0; Small waves lapped up around where she&#x2019;d been.</p>
+<p>&#x201C;Uh,&#x201D; he said.</p>
+<p>His heart was pounding, and he couldn&#x2019;t put words to why.&#xA0; It wasn&#x2019;t just the fact that the larger of the two birds had nearly flown into his face.</p>
+<p>The little sparrow bounced with excitement.&#xA0; The larger one remained where it was, ruffling its feathers momentarily, almost seeming to ignore Dom altogether.&#xA0; Its attention was on the trees.</p>
+<p>&#x201C;Well, I&#x2019;m going back to my bike.&#xA0; You can come if you want,&#x201D; he said.</p>
+<p>The sparrows didn&#x2019;t leave.&#xA0; Dom turned to go back to the path and Deidre, then paused, glancing back.</p>
+<p>No sign.</p>
+<p>The birds were patient as he forged his way past the branches and everything in his way, the small one flying off and away when he accidentally almost knocked it off with a stray branch.</p>
+<p>Back into the daylight.&#xA0; The smaller sparrow perched on him again as he headed up to the food shack and Deidre.</p>
+<p>&#x201C;<em>There</em> you are,&#x201D; she said.&#xA0; He raised her eyebrows.&#xA0; &#x201C;And you brought friends.&#x201D;</p>
+<p>&#x201C;I did,&#x201D; he said.</p>
+<p>Both sparrows took off.&#xA0; Each one settled on a different bike.&#xA0; The larger on his bike, the smaller on Deidre&#x2019;s.</p>
+<p>&#x201C;There&#x2019;s <em>two</em> trained sparrows?&#x201D;</p>
+<p>&#x201C;Yeah.&#x201D;</p>
+<p>&#x201C;What do you call them?&#x201D;</p>
+<p>He shrugged.&#xA0; &#x201C;I don&#x2019;t.&#x201D;</p>
+<p>&#x201C;You could call the big one Ugly,&#x201D; she said.&#xA0; She turned her head at a sound, then shooed the smaller of the two sparrows.&#xA0; &#x201C;No!&#xA0; Do not peck my motorcycle!&#xA0; No!&#x201D;</p>
+<p>It evaded her sweeping hands and settled back in the same place.</p>
+<p>Dom looked at the larger sparrow that had perched on his bike.&#xA0; Unlike the small one, it seemed to be more focused on the surroundings than on <em>him</em>, or even the bike.&#xA0; It had feathers sticking up here and there, and it was a little <em>dirtier</em>.&#xA0; A small bit of branch was stuck in the plumage at its front.&#xA0; It looked like a sparrow that a cat had hacked up and left on the forest floor.&#xA0; Still, it had looked very similar last summer, too.</p>
+<p>&#x201C;I don&#x2019;t want to call it Ugly,&#x201D; Dom said, not taking his eyes off the little creature.&#xA0; &#x201C;It saved my life.&#xA0; Maybe.&#x201D;</p>
+<p>&#x201C;What?&#x201D;</p>
+<p>&#x201C;I know it sounds dumb.&#xA0; But I was riding through the states, and there was this moment where I was overtaking, and I had that feeling.&#xA0; You probably know the feeling I&#x2019;m thinking about.&#xA0; Something being wrong.&#xA0; Small voice in my head said &#x2018;no&#x2019;.&#xA0; But I went ahead, ignored it, and the car I was overtaking started merging into my lane.&#xA0; Totally blind to the fact that I was there.&#x201D;</p>
+<p>&#x201C;The bird saved you?&#x201D;</p>
+<p>&#x201C;Getting to that.&#xA0; The speed I was going, where the car was, the incoming traffic, I had that <em>moment</em> where I realized it was all going to go in a bad way, no matter what happened.&#xA0; Then, bam.&#xA0; Bird that was riding with just flies off, slams into the side window of the car.&#xA0; Scares the shit out of the driver, they correct, and I don&#x2019;t die.&#x201D;</p>
+<p>Deidre looked at the bird.</p>
+<p>&#x201C;They rode with me all the way to Wisconsin.&#xA0; Disappeared.&#xA0; When I was on my return trip, they found me.&#xA0; Rode with me back here.&#xA0; They weren&#x2019;t around in the fall, when I checked in.&#xA0; In retrospect, I&#x2019;m not sure they weren&#x2019;t acting as someone <em>else&#x2019;s</em>&#x2026;&#x201D;</p>
+<p>He trailed off, looking at the bird, and saw it staring at him.&#xA0; Very still.&#xA0; As quiet as the smaller one was animated.&#xA0; Deidre hadn&#x2019;t said anything, so he elaborated, &#x201C;&#x2026;I was going to say guardian angels, but&#x2026;&#x201D;</p>
+<p>&#x201C;But?&#x201D;</p>
+<p>He thought of the white haired girl he&#x2019;d glimpsed, the way she&#x2019;d disappeared.</p>
+<p>The &#x2018;guardian angel&#x2019; thing had been an amusing thought before.&#xA0; Now it felt a little less like an idle thought.</p>
+<p>He couldn&#x2019;t put words to that feeling.&#xA0; Instead, he said, &#x201C;I really like the idea of them being along for our road trip.&#xA0; Especially while you&#x2019;re with.&#x201D;</p>
+<p>She smiled, approaching to grab him by the shirt front, and gave him a peck on the lips.&#xA0; &#x201C;Sure.&#x201D;</p>
+<p>The little one peeped.</p>
+<p>&#x201C;If they&#x2019;re coming,&#x201D; she said.&#xA0; &#x201C;I&#x2019;m happy if they are, but we can&#x2019;t get your hopes up.&#x201D;</p>
+<p>&#x201C;I think they are,&#x201D; he said.&#xA0; &#x201C;Are you two coming with?&#xA0; Deidre and I are heading to Labrador.&#x201D;</p>
+<p>The little one peeped again, bouncing on the spot.&#xA0; The big one only turned, facing forward.</p>
+<p>Dominic smiled.</p>
+<p>&#x201C;How about we loop back, see if we can&#x2019;t take the other road and head down to explore the little ghost town, satisfy your curiosity?&#x201D; he asked her.&#xA0; &#x201C;Then we can head on our way.&#x201D;</p>
+<p>&#x201C;Sure!&#x201D;</p>
+<p>They began to steer the bikes around.&#xA0; It was only a short trip back to a branch in the road. The birds remained at the front of the bikes.</p>
+<p>A chain stretched across the side road, but it wasn&#x2019;t impossible to duck under.</p>
+<p>The moment they had the bikes pointed at the road in question, however, the birds took off, first the large one, then the small one.</p>
+<p>Both perched on branches, just a short distance away.</p>
+<p>Dominic blinked.</p>
+<p>&#x201C;Come on,&#x201D; he said.</p>
+<p>The birds didn&#x2019;t move.</p>
+<p>&#x201C;Just visiting the town.&#xA0; We can pass right through and pop out the other side, head to Ottawa, then Montreal, maybe.&#x201D;</p>
+<p>The little one peeped.</p>
+<p>Still sitting astride his motorcycle, he raised his hands, and tried the bird call.</p>
+<p>He got two blank stares instead.</p>
+<p>&#x201C;Won&#x2019;t?&#x201D; he asked.</p>
+<p>&#x201C;I&#x2019;ll remind you that you&#x2019;re talking to birds,&#x201D; Deidre pointed out.</p>
+<p>He leaned forward, elbows and arms draped over the handlebars of his motorcycle.&#xA0; &#x201C;Come <em>onnn</em>.&#x201D;</p>
+<p>The birds didn&#x2019;t budge.</p>
+<p>&#x201C;Maybe they <em>can&#x2019;t?</em>&#x201D; Deidre asked.</p>
+<p>&#x201C;Can&#x2019;t?&#x201D;</p>
+<p>&#x201C;It&#x2019;s like&#x2026; you hear about animals reacting before an earthquake hits.&#xA0; You said it was groundwater contamination.&#xA0; Maybe they sense something wrong down that way, so they&#x2019;ll instinctively refuse.&#x201D;</p>
+<p>&#x201C;Maybe,&#x201D; Dom conceded.&#xA0; &#x201C;Poisons in the air?&#x201D;</p>
+<p>Deidre offered a shrug.&#xA0; She had very nice shrugs.</p>
+<p>&#x201C;How committed are you to going this way?&#x201D;</p>
+<p>&#x201C;Not very,&#x201D; she said.&#xA0; &#x201C;If I&#x2019;m being totally honest, I had a bad feeling, like the one you described.&#xA0; Nothing I can reason or explain, but-&#x201D;</p>
+<p>&#x201C;But a bad feeling,&#x201D; he said.&#xA0; He sat up straighter.&#xA0; &#x201C;Good enough.&#xA0; On to the highway, head to and through Ottawa, find some spot between there and Montreal to settle down for the night?&#x201D;</p>
+<p>Deidre smiled.&#xA0; &#x201C;Sounds good.&#x201D;</p>
+<p>&#x201C;What about you two?&#x201D; he asked.</p>
+<p>There was no response.</p>
+<p>&#x201C;Right,&#x201D; he said.</p>
+<p>But as he turned the bike around to go back toward the little shack and the highway beyond, there was a flutter.</p>
+<p>The birds settled in, the large one perched on his headlight.</p>
+<p>He paused.&#xA0; The girl with white hair stuck in his mind.</p>
+<p>&#x201C;Two ways we can go,&#x201D; Dominic said, &#x201C;Take the main highway, or we can go by the <em>water</em>.&#x201D;</p>
+<p>No sooner was the word <em>water</em> out of his mouth than the little one started to bounce in place.</p>
+<p>Even the large one looked at him, which was about as much attention as it had given him in the entire road trip last summer.</p>
+<p>Deidre laughed, and it was a good sound.&#xA0; &#x201C;I don&#x2019;t think I get a say.&#x201D;</p>
+<p>&#x201C;By the water it is,&#x201D; Dom said.</p>
+<p>Dominic led the way, easing in, gently ramping up the speed, one eye on the sparrow.</p>
+<p>It managed a good enough grip, though the vibrations of the engine had to be rattling its brain in its skull.</p>
+<p>Tough little critter didn&#x2019;t seem to mind.</p>
+<p>He picked up speed, until he&#x2019;d matched pace with traffic on the highway.&#xA0; He merged into traffic, glancing back to make sure Deids and the little guy were with him.</p>
+<p>They passed the trees that seemed to surround the little ghost town.&#xA0; It didn&#x2019;t take long to pass it outright.</p>
+<p>Small as it was, the sparrow couldn&#x2019;t hold on forever.&#xA0; Shortly after the town was left behind, there was a bump in the road, and it came loose, disappearing off to the side.</p>
+<p>Dominic tried not to worry, but it was hard.</p>
+<p>But, sure enough, just as it had been last year, the bird reappeared.&#xA0; It wasn&#x2019;t faster than the bike, but the highway curved gently, and the bird could fly in a straight line, meeting him further ahead, then continuing on, to meet him at the next bend.</p>
+<p>It would fall behind eventually, he knew, but it would always catch up somehow.&#xA0; If it got tired, it would take advantage of his stopping for gas or food to catch a ride, somewhere where the wind wouldn&#x2019;t throw it loose.</p>
+<p>In Dominic&#x2019;s peripheral vision, the sparrow was joined by its smaller companion, and the two drifted out in the general direction of the lake.</p>
+<p>The way got clearer as they got further from Toronto and the annoyance of the slower traffic around the ghost town.&#xA0; He smiled, accelerating, content to be leaving it all behind.</p>
+<p><a href=\"https://pactwebserial.wordpress.com/2015/03/03/judgment-16-13/\"><strong>Last Chapter</strong> </a>&#xA0; &#xA0;&#xA0;&#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0; &#xA0;&#xA0;&#xA0;&#xA0; <a href=\"https://wildbow.wordpress.com/2015/03/07/pact-sealed/\"><strong>The End (Afterword)</strong></a></p>
+\t`;
+
+module.exports = { firstPage, lastPage };
