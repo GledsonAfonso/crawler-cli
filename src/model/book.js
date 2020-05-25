@@ -3,6 +3,7 @@ const Book = {
     WARD: 'ward',
     PACT: 'pact',
     TWIG: 'twig',
+    PALE: 'pale',
 };
 
 module.exports = Book;

@@ -1,11 +1,11 @@
 const { get } = require('./http-service');
-const { getTitleFrom, getEntryFrom, getNextPageUrlFrom, getConfigurationFor } = require('../util/book-utils');
+const { getTitleFrom, getEntry, getNextPageUrlFrom, getConfigurationFor } = require('../util/book-utils');
 
-const getPageFor = async (url, uri) => {
+const getPageFor = async (url, uri, unwantedTerms, typos) => {
     const webpage = await get(url, uri);
 
     const title = getTitleFrom(webpage);
-    const entry = getEntryFrom(webpage);
+    const entry = getEntry(webpage, unwantedTerms, typos);
     const nextPageUrl = getNextPageUrlFrom(webpage);
 
     return { title, entry, nextPageUrl };

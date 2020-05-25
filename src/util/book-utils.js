@@ -1,5 +1,5 @@
 const environment = require('../configuration/environment');
-const { WORM, WARD, PACT, TWIG } = require('../model/book');
+const { removeTyposFrom } = require('./text-utils');
 
 const cheerio = require('cheerio');
 
@@ -8,11 +8,21 @@ const getTitleFrom = (webpage) => {
     return $('h1.entry-title').text();
 };
 
-const getEntryFrom = (webpage) => {
-    let $ = cheerio.load(webpage);
-    $('div.sharedaddy').remove();
+const getEntry = (webpage, typos) => {
+    const $ = cheerio.load(webpage, {
+        decodeEntities: false,
+        normalizeWhitespace: true,
+    });
 
-    return $('div.entry-content').html();
+    $('div.sharedaddy').remove();
+    $('div > p > a:contains("Last Chapter")').parent('p').remove();
+    $('div > p > a[title="Next Chapter"]').parent('p').remove();
+    $('div > p > em:contains("Brief note from the author:")').parent('p').remove();
+
+    let entry = $('div.entry-content').html().trim();
+    entry = removeTyposFrom(entry, typos);
+
+    return entry;
 };
 
 const getNextPageUrlFrom = (webpage) => {
@@ -24,39 +34,20 @@ const getConfigurationFor = (book) => {
     let configuration = {
         url: undefined,
         uri: undefined,
+        typos: {}
     };
 
-    switch (book) {
-        case WORM:
-            configuration = {
-                url: environment.wormUrl,
-                uri: environment.wormStartUri,
-            };
-            break;
-        case WARD:
-            configuration = {
-                url: environment.wardUrl,
-                uri: environment.wardStartUri,
-            };
-            break;
-        case PACT:
-            configuration = {
-                url: environment.pactUrl,
-                uri: environment.pactStartUri,
-            };
-            break;
-        case TWIG:
-            configuration = {
-                url: environment.twigUrl,
-                uri: environment.twigStartUri,
-            };
-            break;
-        default:
-            throw new Error(`Invalid parameter for book. Possible unsupported book given: ${book}`);
-            break;
+    try {
+        configuration = {
+            url: environment[book].url,
+            uri: environment[book].startUri,
+            typos: environment[book].typos,
+        };
+    } catch (error) {
+        throw new Error(`Invalid parameter for book. Possible unsupported book given: ${book}`);
     }
 
     return configuration;
 };
 
-module.exports = { getTitleFrom, getEntryFrom, getNextPageUrlFrom, getConfigurationFor };
+module.exports = { getTitleFrom, getEntry, getNextPageUrlFrom, getConfigurationFor };
