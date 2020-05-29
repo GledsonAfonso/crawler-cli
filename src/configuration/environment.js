@@ -3,28 +3,28 @@ const { WORM, WARD, PACT, TWIG, PALE } = require('../model/book');
 
 const environment = {
     [WORM]: {
-        url: 'https://parahumans.wordpress.com',
-        startUri: '/category/stories-arcs-1-10/arc-1-gestation/1-01/',
+        firstPageUrl: 'https://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-01/',
+        lastPageUrl: 'https://parahumans.wordpress.com/2013/11/19/interlude-end/',
         typos: typos[WORM],
     },
     [WARD]: {
-        url: 'https://www.parahumans.net',
-        startUri: '/2017/10/21/glow-worm-0-1/',
+        firstPageUrl: 'https://www.parahumans.net/2017/10/21/glow-worm-0-1/',
+        lastPageUrl: 'https://www.parahumans.net/2020/05/02/last-20-end/',
         typos: typos[WARD],
     },
     [PACT]: {
-        url: 'https://pactwebserial.wordpress.com',
-        startUri: '/2013/12/17/bonds-1-1/',
+        firstPageUrl: 'https://pactwebserial.wordpress.com/2013/12/17/bonds-1-1/',
+        lastPageUrl: 'https://pactwebserial.wordpress.com/2015/03/07/epilogue/',
         typos: typos[PACT],
     },
     [TWIG]: {
-        url: 'https://twigserial.wordpress.com',
-        startUri: '/category/story/arc-1-taking-root/1-01/',
+        firstPageUrl: 'https://twigserial.wordpress.com/category/story/arc-1-taking-root/1-01/',
+        lastPageUrl: 'https://twigserial.wordpress.com/category/story/epilogue-arc-forest-for-the-trees/e-04/',
         typos: typos[TWIG],
     },
     [PALE]: {
-        url: 'https://palewebserial.wordpress.com',
-        startUri: '/2020/05/05/blood-run-cold-0-0/',
+        firstPageUrl: 'https://palewebserial.wordpress.com/2020/05/05/blood-run-cold-0-0/',
+        lastPageUrl: '',
         typos: typos[PALE],
     },
 };

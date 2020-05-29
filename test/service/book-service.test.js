@@ -9,30 +9,50 @@ const twigFixture = require('../fixtures/twig');
 
 describe('book service', () => {
     test('should be able to get the first page for Worm', async () => {
-        const { url, startUri, typos } = environment[WORM];
+        const { firstPageUrl, typos } = environment[WORM];
 
-        const page = await getPageFor(url, startUri, typos);
+        const page = await getPageFor({
+            currentPageUrl: firstPageUrl,
+            typos
+        });
 
         expect(page.title).toBe('Gestation 1.1');
-        expect(page.entry).toBe(wormFixture.firstPage);
+        expect(page.entry).toMatchIgnoringWhitespaces(wormFixture.firstPage);
         expect(page.nextPageUrl).toBe('https://parahumans.wordpress.com/2011/06/14/gestation-1-2/');
     });
 
-    // test('should be able to get the last page for Worm and it should not have an url for the next page', async () => {
-    //     const { url, typos } = environment[WORM];
-    //     const lastPageUri = '/2013/11/19/interlude-end/';
+    test('should be able to get the last page for Worm and it should not have an url for the next page', async () => {
+        const { lastPageUrl, typos } = environment[WORM];
         
-    //     const page = await getPageFor(url, lastPageUri, typos);
+        const page = await getPageFor({
+            currentPageUrl: lastPageUrl,
+            lastPageUrl,
+            typos
+        });
 
-    //     console.log(page.entry);
+        expect(page.title).toBe('Interlude: End');
+        expect(page.entry).toMatchIgnoringWhitespaces(wormFixture.lastPage);
+        expect(page.nextPageUrl).toBeUndefined();
+    });
 
-    //     expect(page.title).toBe('Interlude: End');
-    //     expect(page.entry).toBe(wormFixture.lastPage);
-    //     expect(page.nextPageUrl).toBeUndefined();
-    // });
+
+
+
+
+
+
+
+
+
+    
 
     // test('should be able to get the first page for Ward', async () => {
-    //     const page = await getPageFor(environment.wardUrl, environment.wardStartUri);
+    //     const { firstPageUrl, typos } = environment[WARD];
+        
+    //     const page = await getPageFor({
+    //         currentPageUrl: firstPageUrl,
+    //         typos
+    //     });
 
     //     expect(page.title).toBe('Glow-worm – 0.1');
     //     expect(page.entry).toBe(wardFixture.firstPage);

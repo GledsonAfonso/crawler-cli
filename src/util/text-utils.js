@@ -1,3 +1,5 @@
+const removeMultipleWhiteSpaces = (entry) => entry.replace(RegExp('\\s\\s+', 'g'), ' ');
+
 const removeTyposFrom = (entry, typos) => {
     let newEntry = entry.trim();
 
@@ -5,11 +7,11 @@ const removeTyposFrom = (entry, typos) => {
         const correctTerm = typos[typo];
 
         if (typos.hasOwnProperty(typo)) {
-            newEntry = newEntry.replace(RegExp(typo, 'g'), correctTerm);
+            newEntry = newEntry.replace(typo, correctTerm);
         }
     }
 
     return newEntry;
 };
 
-module.exports = { removeTyposFrom };
+module.exports = { removeMultipleWhiteSpaces, removeTyposFrom };

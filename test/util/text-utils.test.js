@@ -1,4 +1,4 @@
-const { removeUnwantedTermsFrom, removeTyposFrom } = require('../../src/util/text-utils');
+const { removeTyposFrom } = require('../../src/util/text-utils');
 
 describe('text utils', () => {
     test('should be able to fix typos', () => {

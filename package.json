@@ -30,6 +30,8 @@
     "cheerio": "^1.0.0-rc.3"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "jest-diff": "^26.0.1",
+    "jest-matcher-utils": "^26.0.1"
   }
 }

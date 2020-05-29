@@ -1,5 +1,5 @@
 const environment = require('../configuration/environment');
-const { removeTyposFrom } = require('./text-utils');
+const { removeMultipleWhiteSpaces, removeTyposFrom } = require('./text-utils');
 
 const cheerio = require('cheerio');
 
@@ -12,6 +12,7 @@ const getEntry = (webpage, typos) => {
     const $ = cheerio.load(webpage, {
         decodeEntities: false,
         normalizeWhitespace: true,
+        
     });
 
     $('div.sharedaddy').remove();
@@ -21,6 +22,7 @@ const getEntry = (webpage, typos) => {
 
     let entry = $('div.entry-content').html().trim();
     entry = removeTyposFrom(entry, typos);
+    entry = removeMultipleWhiteSpaces(entry);
 
     return entry;
 };
@@ -32,15 +34,15 @@ const getNextPageUrlFrom = (webpage) => {
 
 const getConfigurationFor = (book) => {
     let configuration = {
-        url: undefined,
-        uri: undefined,
+        currentPageUrl: undefined,
+        lastPageUrl: undefined,
         typos: {}
     };
 
     try {
         configuration = {
-            url: environment[book].url,
-            uri: environment[book].startUri,
+            currentPageUrl: environment[book].firstPageUrl,
+            lastPageUrl: environment[book].lastPageUrl,
             typos: environment[book].typos,
         };
     } catch (error) {
