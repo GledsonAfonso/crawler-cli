@@ -128,7 +128,7 @@ Replied on August 17th, Y1<br>
 <strong>Point_Me_@_The_Sky:</strong> You’re a beautiful person. Yes. Sounds nice. Soon<br>
 <strong>Glitzglam:</strong> We can talk about how gang is getting together for big shebang and what a disaster it will be.<br>
 <strong>Point_Me_@_The_Sky:</strong> you’re doing the terrible pep talk thing again. :0<br>
-<strong>Glitzglam *New Message*:</strong> <img draggable="false" role="img" class="emoji" alt="😮" src="https://s.w.org/images/core/emoji/12.0.0-1/svg/1f62e.svg"></p>
+<strong>Glitzglam *New Message*:</strong> 😮</p>
 <p style="text-align: center;"><strong>⊙</strong></p>
 <p>♦ <strong>You have <em>three</em> unread private messages from an Anonymous account. Click <span style="text-decoration: underline;">here</span> to read.</strong></p>`;
 
