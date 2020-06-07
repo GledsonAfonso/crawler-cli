@@ -5,7 +5,10 @@ const typos = {
         "dribblesrunning": "dribbles running",
         ",I": ", I"
     },
-    [WARD]: {},
+    [WARD]: {
+        "regex:<a(.*)email-protection(.*)a>": "Point_Me_@",
+        "I agree for the most part, Point_Me_@": "I agree for the most part, Point@"
+    },
     [PACT]: {},
     [TWIG]: {},
     [PALE]: {},

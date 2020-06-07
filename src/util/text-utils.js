@@ -7,7 +7,12 @@ const removeTyposFrom = (entry, typos) => {
         const correctTerm = typos[typo];
 
         if (typos.hasOwnProperty(typo)) {
-            newEntry = newEntry.replace(typo, correctTerm);
+            if (typo.includes('regex:')) {
+                const typoRegex = typo.replace('regex:', '');
+                newEntry = newEntry.replace(RegExp(typoRegex, 'gi'), correctTerm);
+            } else {
+                newEntry = newEntry.replace(typo, correctTerm);
+            }
         }
     }
 
