@@ -7,6 +7,7 @@ const typos = {
     },
     [WARD]: {
         "regex:<a(.*)email-protection(.*)a>": "Point_Me_@",
+        "regex:Glitzglam:(\\s+)<\/strong>": "Glitzglam:<\/strong>",
         "I agree for the most part, Point_Me_@": "I agree for the most part, Point@"
     },
     [PACT]: {},
