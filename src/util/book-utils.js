@@ -12,12 +12,12 @@ const getEntry = (webpage, typos) => {
     const $ = cheerio.load(webpage, {
         decodeEntities: false,
         normalizeWhitespace: true,
-        
     });
 
     $('div.sharedaddy').remove();
     $('div > p > a:contains("Last Chapter")').parent('p').remove();
     $('div > p > a[title="Next Chapter"]').parent('p').remove();
+    $('div > p > strong > a:contains("Next Chapter")').parent('strong').parent('p').remove();
     $('div > p > em:contains("Brief note from the author:")').parent('p').remove();
 
     let entry = $('div.entry-content').html().trim();
