@@ -11,22 +11,18 @@ const getPageFor = async ({currentPageUrl, lastPageUrl, typos}) => {
     return { title, entry, nextPageUrl };
 };
 
-const getPagesFor = async (book) => {
-    let pages = [];
+const getPagesFor = async (book, pages = []) => {
+    const configuration = getConfigurationFor(book);
 
-    const fn = async (configuration) => {
-        const page = await getPageFor(...configuration);
-        pages.push(page);
+    const page = await getPageFor(configuration); // need to be parallel. It will take too long otherwise
+    pages.push(page);
 
-        if (page.nextPageUrl) {
-            configuration.currentPageUrl = page.nextPageUrl;
-            await fn(configuration);
-        }
-    };
-
-    await fn(getConfigurationFor(book));
-
-    return pages;
+    if (page.nextPageUrl) {
+        configuration.currentPageUrl = page.nextPageUrl;
+        return await getPagesFor(book, pages);
+    } else {
+        return pages;
+    }
 };
 
 module.exports = { getPageFor, getPagesFor };
