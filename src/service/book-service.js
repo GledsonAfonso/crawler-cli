@@ -1,4 +1,5 @@
 const fs = require('fs');
+const asyncPool = require('tiny-async-pool');
 
 const environment = require('../configuration/environment');
 const { get } = require('./http-service');
@@ -38,29 +39,27 @@ const generateBookUrlsFileFor = async (book) => {
     fs.writeFileSync(`${BOOK_URLS_DIRECTORY}/${book}_urls.json`, urlsString);
 };
 
-const getPageFor = async ({ currentPageUrl, lastPageUrl, typos }) => {
+const getPageFor = async ({ currentPageUrl, lastPageUrl, pageNumber, typos }) => {
     const webpage = await get(currentPageUrl);
 
     const title = getTitleFrom(webpage);
     const entry = getEntry(webpage, typos);
     const nextPageUrl = (`${currentPageUrl}` !== `${lastPageUrl}`) ? getNextPageUrlFrom(webpage) : undefined;
 
-    return { title, entry, nextPageUrl };
+    return { pageNumber, title, entry, nextPageUrl };
 };
 
-const getPagesFor = async (book, pages = []) => {
-    const configuration = getConfigurationFor(book);
+const getPagesFor = async (book, poolLimit = 13) => {
+    const { lastPageUrl, urls, typos } = getConfigurationFor(book);
 
-    // need to be parallel/concurrent. It will take too long otherwise. Try this: https://itnext.io/node-js-handling-asynchronous-operations-in-parallel-69679dfae3fc
-    const page = getPageFor(configuration);
-    pages.push(page);
+    const configurations = urls.map((url, pageNumber) => ({
+        currentPageUrl: url,
+        lastPageUrl,
+        pageNumber,
+        typos
+    }));
 
-    if (page.nextPageUrl) {
-        configuration.currentPageUrl = page.nextPageUrl;
-        return getPagesFor(book, pages);
-    } else {
-        return pages;
-    }
+    return await asyncPool(poolLimit, configurations, getPageFor);
 };
 
 module.exports = { generateBookUrlsFileFor, getPageFor, getPagesFor };

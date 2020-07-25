@@ -1,11 +1,61 @@
 const environment = require('../../src/configuration/environment');
 const { WORM, WARD, PACT, TWIG } = require('../../src/model/book');
-const { getPageFor } = require('../../src/service/book-service');
+const { generateBookUrlsFileFor, getPageFor, getPagesFor } = require('../../src/service/book-service');
 
 const wormFixture = require('../fixtures/worm');
 const wardFixture = require('../fixtures/ward');
 const pactFixture = require('../fixtures/pact');
 const twigFixture = require('../fixtures/twig');
+
+//
+// Only run this if you need to get all book's urls - be advised though, this will take a lot of time,
+// so remember to set testTimeout in jest.config.js to at least 1000000 before running each test separately
+
+// describe('book service - setup', () => {
+    // test(`should be able to make a list with all Worm page's urls`, async () => {
+    //     await generateBookUrlsFileFor(WORM);
+    // });
+
+    // test(`should be able to make a list with all Ward page's urls`, async () => {
+    //     await generateBookUrlsFileFor(WARD);
+    // });
+
+    // test(`should be able to make a list with all Pact page's urls`, async () => {
+    //     await generateBookUrlsFileFor(PACT);
+    // });
+
+    // Twig is giving some kind of error when trying to download chapter 8.4. So, if you need to use this,
+    // you will need to download until 8.3, add 8.4 manually and then continue from 8.5 as the first page
+    // test(`should be able to make a list with all Twig page's urls`, async () => {
+    //     await generateBookUrlsFileFor(TWIG);
+    // });
+// });
+
+//
+// These test take too long to finish. Better keep then like this until it is necessary to test
+// "getPagesFor" method
+
+// describe('book service', () => {
+//     test('should be able to get the entire Worm book', async () => {
+//         const pages = await getPagesFor(WORM);
+//         expect(pages.length).toBe(304);
+//     });
+
+//     test('should be able to get the entire Ward book', async () => {
+//         const pages = await getPagesFor(WARD);
+//         expect(pages.length).toBe(280);
+//     });
+
+//     test('should be able to get the entire Pact book', async () => {
+//         const pages = await getPagesFor(PACT);
+//         expect(pages.length).toBe(153);
+//     });
+
+//     test('should be able to get the entire Twig book', async () => {
+//         const pages = await getPagesFor(TWIG);
+//         expect(pages.length).toBe(321);
+//     });
+// });
 
 describe('book service', () => {
     test('should be able to get the first page for Worm', async () => {
@@ -23,7 +73,7 @@ describe('book service', () => {
 
     test('should be able to get the last page for Worm and it should not have an url for the next page', async () => {
         const { lastPageUrl, typos } = environment[WORM];
-        
+
         const page = await getPageFor({
             currentPageUrl: lastPageUrl,
             lastPageUrl,
@@ -37,7 +87,7 @@ describe('book service', () => {
 
     test('should be able to get the first page for Ward', async () => {
         const { firstPageUrl, typos } = environment[WARD];
-        
+
         const page = await getPageFor({
             currentPageUrl: firstPageUrl,
             typos
@@ -115,6 +165,4 @@ describe('book service', () => {
         expect(page.entry).toMatchIgnoringWhitespaces(twigFixture.lastPage);
         expect(page.nextPageUrl).toBeUndefined();
     });
-
-    // TODO: write test case for getPagesFor (tip: test quantity of pages instead of make fixtures for each page)
 });

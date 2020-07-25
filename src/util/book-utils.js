@@ -40,15 +40,17 @@ const getNextPageUrlFrom = (webpage) => {
 
 const getConfigurationFor = (book) => {
     let configuration = {
-        currentPageUrl: undefined,
+        firstPageUrl: undefined,
         lastPageUrl: undefined,
+        urls: undefined,
         typos: {}
     };
 
     try {
         configuration = {
-            currentPageUrl: environment[book].firstPageUrl,
+            firstPageUrl: environment[book].firstPageUrl,
             lastPageUrl: environment[book].lastPageUrl,
+            urls: environment[book].urls,
             typos: environment[book].typos,
         };
     } catch (error) {
