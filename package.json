@@ -28,6 +28,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
+    "epub-gen": "^0.1.0",
     "tiny-async-pool": "^1.1.0"
   },
   "devDependencies": {
