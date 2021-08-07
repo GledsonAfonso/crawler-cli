@@ -1,6 +1,8 @@
+const fs = require('fs');
 const Epub = require('epub-gen');
 
-const EPUB_DIRECTORY = 'epub';
+const rootPath = process.cwd();
+const EPUB_DIRECTORY = `${rootPath}/epub`;
 
 const _getContent = (pages) => {
     const content = pages.map(page => {
@@ -15,17 +17,23 @@ const _getContent = (pages) => {
     return content;
 };
 
-const generateEpub = async (title, author, pages) => {
-    const bookInfo = {
+const getEpubDirectory = () => EPUB_DIRECTORY;
+
+const generateEpub = (title, author, pages) => {
+    if (!fs.existsSync(EPUB_DIRECTORY)) {
+        fs.mkdirSync(EPUB_DIRECTORY);
+    }
+    
+    const output = `${EPUB_DIRECTORY}/${title}.epub`;
+    const content = _getContent(pages);
+    const options = {
         title,
         author,
-        content: _getContent(pages)
+        output,
+        content
     };
 
-    new Epub(bookInfo, EPUB_DIRECTORY,
-        () => console.log(`${title} epub create with success!`),
-        (error) => console.error(`Error while trying to create epub for ${title}. Error message: `, error)
-    );
+    return new Epub(options).promise;
 };
 
-module.exports = { generateEpub };
+module.exports = { getEpubDirectory, generateEpub };
