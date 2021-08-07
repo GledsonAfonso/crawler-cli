@@ -468,4 +468,9 @@ waiting?</p>
 <p>“But I’ve dealt with worse. If it comes down to it, if this is all I have to worry about, I can maybe deal. I could maybe learn to be okay.”</p>
 <p>“I think that’s all any of us can hope for,” her father said.</p>`;
 
-module.exports = { firstPage, lastPage };
+const fisrtPageObject = {
+    title: 'Gestation 1.1',
+    entry: firstPage
+};
+
+module.exports = { firstPage, lastPage, fisrtPageObject };
