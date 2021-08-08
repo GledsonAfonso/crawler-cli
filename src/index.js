@@ -1,8 +1,3 @@
-const envPath = `${__dirname}/.env`;
-
-require('dotenv').config({ path: envPath });
-require('./src/configuration/environment');
-
 const clear = require('clear');
 const figlet = require('figlet');
 const chalk = require('chalk');

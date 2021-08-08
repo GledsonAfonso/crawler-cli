@@ -1,11 +1,12 @@
 const inquirer = require('inquirer');
 
 const { WORM, WARD, PACT, TWIG } = require('../../model/book');
+
 const MainMenuOption = {
-  WORM,
-  WARD,
-  PACT,
-  TWIG,
+  WORM: 'Worm',
+  WARD: 'Ward',
+  PACT: 'Pact',
+  TWIG: 'Twig',
   EXIT: 'Exit'
 };
 
@@ -19,11 +20,17 @@ const _act = async (answers) => {
   let fileType;
 
   switch (answers?.mainMenu) {
-    case MainMenuOption.EXIT:
+    case MainMenuOption.WORM:
+      book = WORM;
+      break;
     case MainMenuOption.WARD:
+      book = WARD;
+      break;
     case MainMenuOption.PACT:
+      book = PACT;
+      break;
     case MainMenuOption.TWIG:
-      book = answers.mainMenu;
+      book = TWIG;
       break;
     default:
       console.log('Exiting...');
@@ -32,10 +39,9 @@ const _act = async (answers) => {
 
   if (answers?.chooseFileTypeMenu) {
     fileType = answers.chooseFileTypeMenu;
+    console.log(`book: ${book}`);
+    console.log(`fileType: ${fileType}`);
   }
-
-  console.log(`book: ${book}`);
-  console.log(`fileType: ${fileType}`);
 };
 
 const mainMenu = async () => {
@@ -59,7 +65,8 @@ const mainMenu = async () => {
       choices: [
         ChooseFileTypeMenuOption.EPUB,
         ChooseFileTypeMenuOption.MOBI
-      ]
+      ],
+      when: (answers) => answers?.mainMenu !== MainMenuOption.EXIT
     }
   ];
 
