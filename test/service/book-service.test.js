@@ -8,11 +8,17 @@ const pactFixture = require('../fixtures/pact');
 const twigFixture = require('../fixtures/twig');
 
 const comparePages = (acquiredPage, fixturePage) => {
-    acquiredPage.split('</p>').forEach(acquiredPageParagraph => {
-        fixturePage.split('</p>').forEach(fixtureParagraph => {
-            expect(acquiredPageParagraph).toMatchIgnoringWhitespaces(fixtureParagraph);
-        });
-    });
+    const acquiredPageParagraphs = acquiredPage.split('</p>');
+    const acquiredPageParagraphsSize = acquiredPageParagraphs.length;
+
+    const fixturePageParagraphs = fixturePage.split('</p>');
+    const fixturePageParagraphsSize = fixturePageParagraphs.length;
+
+    expect(acquiredPageParagraphsSize).toBe(fixturePageParagraphsSize);
+
+    for (let i = 0; i <= acquiredPageParagraphsSize; i++) {
+        expect(acquiredPageParagraphs[i]).toMatchIgnoringWhitespaces(fixturePageParagraphs[i]);
+    }
 };
 
 //

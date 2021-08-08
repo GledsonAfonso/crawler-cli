@@ -1,4 +1,9 @@
-const removeMultipleWhiteSpaces = (entry) => entry.replace(RegExp('\\s\\s+', 'g'), ' ');
+const removeMultipleWhiteSpaces = (entry) => {
+    let result = entry.replace(RegExp('\\s\\s+', 'g'), ' ');
+    result = entry.replaceAll('&nbsp;', '');
+
+    return result;
+};
 
 const removeTyposFrom = (entry, typos) => {
     let newEntry = entry.trim();

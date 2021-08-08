@@ -11,7 +11,9 @@ const typos = {
         "I agree for the most part, Point_Me_@": "I agree for the most part, Point@"
     },
     [Book.PACT]: {},
-    [Book.TWIG]: {},
+    [Book.TWIG]: {
+        "you’dhave": "you’d have"
+    },
     [Book.PALE]: {},
 };
 
