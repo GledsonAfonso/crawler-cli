@@ -118,15 +118,15 @@ Replied on August 17th, Y1<br>
 <p>♦ <strong>Private Messages from Glitzglam:</strong></p>
 <p style="padding-left: 30px;"><strong>Glitzglam:</strong> u cant engage with them. u gotta let it lie.<br>
 <strong>Point_Me_@_The_Sky:</strong> I’m worried what happens if the wrong ideas get traction.<br>
-<strong>Glitzglam:</strong> So am I. Im more worried about u. Thought u might need pep talk.<br>
-<strong>Glitzglam:</strong> Have u got that email yet?<br>
-<strong>Glitzglam:</strong> ? ? ?<br>
+<strong>Glitzglam: </strong> So am I. Im more worried about u. Thought u might need pep talk.<br>
+<strong>Glitzglam: </strong> Have u got that email yet?<br>
+<strong>Glitzglam: </strong> ? ? ?<br>
 <strong>Point_Me_@_The_Sky:</strong> If this is a pep talk it isn’t a very good one.<br>
-<strong>Glitzglam:</strong> Thats a no huh? fuck<br>
-<strong>Glitzglam:</strong> u right though<br>
-<strong>Glitzglam:</strong> I hate typing on phone. Ice cream or coffee. I pep talk u in person. When u can fit it into cray schedule<br>
+<strong>Glitzglam: </strong> Thats a no huh? fuck<br>
+<strong>Glitzglam: </strong> u right though<br>
+<strong>Glitzglam: </strong> I hate typing on phone. Ice cream or coffee. I pep talk u in person. When u can fit it into cray schedule<br>
 <strong>Point_Me_@_The_Sky:</strong> You’re a beautiful person. Yes. Sounds nice. Soon<br>
-<strong>Glitzglam:</strong> We can talk about how gang is getting together for big shebang and what a disaster it will be.<br>
+<strong>Glitzglam: </strong> We can talk about how gang is getting together for big shebang and what a disaster it will be.<br>
 <strong>Point_Me_@_The_Sky:</strong> you’re doing the terrible pep talk thing again. :0<br>
 <strong>Glitzglam *New Message*:</strong> 😮</p>
 <p style="text-align: center;"><strong>⊙</strong></p>

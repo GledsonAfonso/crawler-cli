@@ -14,9 +14,9 @@ const removeTyposFrom = (entry, typos) => {
         if (typos.hasOwnProperty(typo)) {
             if (typo.includes('regex:')) {
                 const typoRegex = typo.replace('regex:', '');
-                newEntry = newEntry.replace(RegExp(typoRegex, 'gi'), correctTerm);
+                newEntry = newEntry.replaceAll(RegExp(typoRegex, 'gi'), correctTerm);
             } else {
-                newEntry = newEntry.replace(typo, correctTerm);
+                newEntry = newEntry.replaceAll(typo, correctTerm);
             }
         }
     }
