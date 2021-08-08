@@ -25,7 +25,6 @@ const getEntry = (webpage, typos) => {
 
     $('div > p > em:contains("Brief note from the author:")').parent('p').remove();
 
-
     let entry = $('div.entry-content').html().trim();
     entry = removeTyposFrom(entry, typos);
     entry = removeMultipleWhiteSpaces(entry);
