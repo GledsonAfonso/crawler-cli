@@ -16,7 +16,7 @@ const comparePages = (acquiredPage, fixturePage) => {
 
     expect(acquiredPageParagraphsSize).toBe(fixturePageParagraphsSize);
 
-    for (let i = 0; i <= acquiredPageParagraphsSize; i++) {
+    for (let i = 0; i < acquiredPageParagraphsSize; i++) {
         expect(acquiredPageParagraphs[i]).toMatchIgnoringWhitespaces(fixturePageParagraphs[i]);
     }
 };

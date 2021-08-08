@@ -1,6 +1,6 @@
 const removeMultipleWhiteSpaces = (entry) => {
-    let result = entry.replace(RegExp('\\s\\s+', 'g'), ' ');
-    result = entry.replaceAll('&nbsp;', '');
+    let result = entry.replaceAll('&nbsp;', ' ');
+    result = result.replaceAll(RegExp('\\s\\s+', 'g'), ' ');
 
     return result;
 };
