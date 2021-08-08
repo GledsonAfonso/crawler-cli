@@ -27,8 +27,12 @@
   "homepage": "https://github.com/GledsonAfonso/crawler-cli#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.3",
+    "clear": "^0.1.0",
     "epub-gen": "^0.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.1.2",
     "tiny-async-pool": "^1.1.0"
   },
   "devDependencies": {
