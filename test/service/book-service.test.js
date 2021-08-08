@@ -76,6 +76,7 @@ describe('book service', () => {
         const { firstPageUrl, typos } = environment[Book.WORM];
 
         const page = await getPageFor({
+            book: Book.WORM,
             currentPageUrl: firstPageUrl,
             typos
         });
@@ -90,6 +91,7 @@ describe('book service', () => {
         const { lastPageUrl, typos } = environment[Book.WORM];
 
         const page = await getPageFor({
+            book: Book.WORM,
             currentPageUrl: lastPageUrl,
             lastPageUrl,
             typos
@@ -105,6 +107,7 @@ describe('book service', () => {
         const { firstPageUrl, typos } = environment[Book.WARD];
 
         const page = await getPageFor({
+            book: Book.WARD,
             currentPageUrl: firstPageUrl,
             typos
         });
@@ -119,6 +122,7 @@ describe('book service', () => {
         const { lastPageUrl, typos } = environment[Book.WARD];
 
         const page = await getPageFor({
+            book: Book.WARD,
             currentPageUrl: lastPageUrl,
             lastPageUrl,
             typos
@@ -134,6 +138,7 @@ describe('book service', () => {
         const { firstPageUrl, typos } = environment[Book.PACT];
 
         const page = await getPageFor({
+            book: Book.PACT,
             currentPageUrl: firstPageUrl,
             typos
         });
@@ -148,6 +153,7 @@ describe('book service', () => {
         const { lastPageUrl, typos } = environment[Book.PACT];
 
         const page = await getPageFor({
+            book: Book.PACT,
             currentPageUrl: lastPageUrl,
             lastPageUrl,
             typos
@@ -163,6 +169,7 @@ describe('book service', () => {
         const { firstPageUrl, typos } = environment[Book.TWIG];
 
         const page = await getPageFor({
+            book: Book.TWIG,
             currentPageUrl: firstPageUrl,
             typos
         });
@@ -177,6 +184,7 @@ describe('book service', () => {
         const { lastPageUrl, typos } = environment[Book.TWIG];
 
         const page = await getPageFor({
+            book: Book.TWIG,
             currentPageUrl: lastPageUrl,
             lastPageUrl,
             typos

@@ -1,4 +1,5 @@
 const environment = require('../configuration/environment');
+const { General } = require('../configuration/typos');
 const { removeMultipleWhiteSpaces, removeTyposFrom } = require('./text-utils');
 
 const cheerio = require('cheerio');
@@ -26,37 +27,24 @@ const getEntry = (webpage, typos) => {
     $('div > p > em:contains("Brief note from the author:")').parent('p').remove();
 
     let entry = $('div.entry-content').html().trim();
+
+    entry = removeTyposFrom(entry, General);
     entry = removeTyposFrom(entry, typos);
     entry = removeMultipleWhiteSpaces(entry);
 
     return entry;
 };
 
-const getNextPageUrlFrom = (webpage) => {
+const getNextPageUrlFrom = (book, webpage) => {
+    const { rootUrl } = environment[book];
     const $ = cheerio.load(webpage);
-    return $('a:contains("Next")').attr('href');
-};
+    let nextPageUrl = $('a:contains("Next")').attr('href');
 
-const getConfigurationFor = (book) => {
-    let configuration = {
-        firstPageUrl: undefined,
-        lastPageUrl: undefined,
-        urls: undefined,
-        typos: {}
-    };
-
-    try {
-        configuration = {
-            firstPageUrl: environment[book].firstPageUrl,
-            lastPageUrl: environment[book].lastPageUrl,
-            urls: environment[book].urls,
-            typos: environment[book].typos,
-        };
-    } catch (error) {
-        throw new Error(`Invalid parameter for book. Possible unsupported book given: ${book}`);
+    if (!nextPageUrl.includes(rootUrl)) {
+        nextPageUrl = `${rootUrl}${nextPageUrl}`;
     }
 
-    return configuration;
+    return nextPageUrl;
 };
 
-module.exports = { getTitleFrom, getEntry, getNextPageUrlFrom, getConfigurationFor };
+module.exports = { getTitleFrom, getEntry, getNextPageUrlFrom };

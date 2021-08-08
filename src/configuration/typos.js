@@ -1,6 +1,9 @@
 const { Book } = require('../model/book');
 
 const typos = {
+    General: {
+        "&amp;": "&"
+    },
     [Book.WORM]: {
         "dribblesrunning": "dribbles running",
         ",I": ", I"

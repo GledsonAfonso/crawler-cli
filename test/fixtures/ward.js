@@ -2,7 +2,7 @@ const firstPage = `<p><em>Ward is the second work in the Parahumans series, and 
 <p><em>Ward is not recommended for young or sensitive readers.</em></p>
 <p><em>The Glow-worm chapters were a teaser event leading up to Worm 2. They aren’t required reading but offer flavor and additional angles by which to view certain characters. They take the form of forum posts, chat conversations and emails.</em></p>
 <p><em>They’re best described as a kind of a post-epilogue, pseudo-prologue bridge between the series. Those who read them on the Worm site shouldn’t feel the need to read them again – they’re included here for convenience’s sake, with a few readability improvements.</em></p>
-<p>If you’re not interested or find this hard to read, click <a href="https://www.parahumans.net/2017/09/11/daybreak-1-1/"><strong>here</strong></a> to jump to chapter 1.</p>
+<p>If you’re not interested or find this hard to read, click <a href="/2017/09/11/daybreak-1-1/"><strong>here</strong></a> to jump to chapter 1.</p>
 <p style="text-align: center;"><strong>⊙</strong></p>
 <p><strong>Welcome to the Parahumans Online message boards.</strong><br>
 You are currently logged in, <span style="text-decoration: underline;">Point_Me_@_The_Sky</span><br>
