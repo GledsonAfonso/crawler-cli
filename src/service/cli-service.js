@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 
 const { Book, BookExtension } = require('../model/book');
-const { getBookFor } = require('./book-service');
+const { generateBookFor } = require('./book-service');
 
 const MainMenuOption = {
   ...Book,
@@ -27,7 +27,7 @@ const _act = async (answers) => {
 
   if (answers?.chooseBookExtensionMenu) {
     bookExtension = answers.chooseBookExtensionMenu;
-    await getBookFor(bookTitle, bookExtension);
+    await generateBookFor(bookTitle, bookExtension);
   }
 };
 
@@ -38,7 +38,7 @@ const cli = async () => {
       name: 'mainMenu',
       message: 'Which book do you want?',
       choices: [
-        Object.values(MainMenuOption)
+        ...Object.values(MainMenuOption)
       ]
     },
     {
@@ -46,7 +46,7 @@ const cli = async () => {
       name: 'chooseBookExtensionMenu',
       message: 'Which type?',
       choices: [
-        Object.values(ChooseBookExtensionMenuOption)
+        ...Object.values(ChooseBookExtensionMenuOption)
       ],
       when: (answers) => answers?.mainMenu !== MainMenuOption.EXIT
     }
