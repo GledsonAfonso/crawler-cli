@@ -2,6 +2,7 @@ const fs = require('fs');
 const asyncPool = require('tiny-async-pool');
 
 const environment = require('../configuration/environment');
+const { BookExtension } = require('../model/book');
 const { get } = require('./http-service');
 const { getTitleFrom, getEntry, getNextPageUrlFrom, getConfigurationFor } = require('../util/book-utils');
 
@@ -16,6 +17,16 @@ const _getBookUrlsFor = async (currentPageUrl, lastPageUrl, urls = [currentPageU
     } else {
         return urls;
     }
+};
+
+const _generateEpub = async (title) => {
+    console.log(`book: ${title}`);
+    console.log(`extension: epub`);
+};
+
+const _generateMobi = async (title) => {
+    console.log(`book: ${title}`);
+    console.log(`extension: mobi`);
 };
 
 const generateBookUrlsFileFor = async (book) => {
@@ -62,4 +73,12 @@ const getPagesFor = async (book, poolLimit = 13) => {
     return await asyncPool(poolLimit, configurations, getPageFor);
 };
 
-module.exports = { generateBookUrlsFileFor, getPageFor, getPagesFor };
+const generateBookFor = async (title, extension) => {
+    if (extension === BookExtension.EPUB) {
+        await _generateEpub(title);
+    } else {
+        await _generateMobi(title);
+    }
+};
+
+module.exports = { generateBookUrlsFileFor, getPageFor, getPagesFor, generateBookFor };

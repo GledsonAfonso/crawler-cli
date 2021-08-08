@@ -2,7 +2,7 @@ const clear = require('clear');
 const figlet = require('figlet');
 const chalk = require('chalk');
 
-const { mainMenu } = require('./service/cli/main-menu-service');
+const { cli } = require('./service/cli-service');
 
 clear();
 
@@ -13,5 +13,5 @@ console.log(
 );
 
 (async () => {
-  await mainMenu();
+  await cli();
 })();
