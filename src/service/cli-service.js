@@ -38,7 +38,7 @@ const cli = async () => {
       name: 'mainMenu',
       message: 'Which book do you want?',
       choices: [
-        ...Object.values(MainMenuOption)
+        ...Object.values(MainMenuOption).filter(option => option !== Book.PALE)
       ]
     },
     {
