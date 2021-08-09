@@ -3,50 +3,55 @@ const wardUrls = require('./book-urls/ward_urls');
 const pactUrls = require('./book-urls/pact_urls');
 const twigUrls = require('./book-urls/twig_urls');
 const typos = require('./typos');
-const { WORM, WARD, PACT, TWIG, PALE } = require('../model/book');
+const { Book } = require('../model/book');
 
 const AUTHOR = 'John C. McCrae';
 
 const environment = {
-    [WORM]: {
-        title: WORM,
+    [Book.WORM]: {
+        title: Book.WORM,
         author: AUTHOR,
+        rootUrl: 'https://parahumans.wordpress.com',
         firstPageUrl: 'https://parahumans.wordpress.com/category/stories-arcs-1-10/arc-1-gestation/1-01/',
         lastPageUrl: 'https://parahumans.wordpress.com/2013/11/19/interlude-end/',
         urls: wormUrls,
-        typos: typos[WORM],
+        typos: typos[Book.WORM],
     },
-    [WARD]: {
-        title: WARD,
+    [Book.WARD]: {
+        title: Book.WARD,
         author: AUTHOR,
+        rootUrl: 'https://www.parahumans.net',
         firstPageUrl: 'https://www.parahumans.net/2017/10/21/glow-worm-0-1/',
         lastPageUrl: 'https://www.parahumans.net/2020/05/02/last-20-end/',
         urls: wardUrls,
-        typos: typos[WARD],
+        typos: typos[Book.WARD],
     },
-    [PACT]: {
-        title: PACT,
+    [Book.PACT]: {
+        title: Book.PACT,
         author: AUTHOR,
+        rootUrl: 'https://pactwebserial.wordpress.com',
         firstPageUrl: 'https://pactwebserial.wordpress.com/2013/12/17/bonds-1-1/',
         lastPageUrl: 'https://pactwebserial.wordpress.com/2015/03/07/epilogue/',
         urls: pactUrls,
-        typos: typos[PACT],
+        typos: typos[Book.PACT],
     },
-    [TWIG]: {
-        title: TWIG,
+    [Book.TWIG]: {
+        title: Book.TWIG,
         author: AUTHOR,
+        rootUrl: 'https://twigserial.wordpress.com',
         firstPageUrl: 'https://twigserial.wordpress.com/category/story/arc-1-taking-root/1-01/',
         lastPageUrl: 'https://twigserial.wordpress.com/category/story/epilogue-arc-forest-for-the-trees/e-04/',
         urls: twigUrls,
-        typos: typos[TWIG],
+        typos: typos[Book.TWIG],
     },
-    [PALE]: {
-        title: PALE,
+    [Book.PALE]: {
+        title: Book.PALE,
         author: AUTHOR,
+        rootUrl: 'https://palewebserial.wordpress.com',
         firstPageUrl: 'https://palewebserial.wordpress.com/2020/05/05/blood-run-cold-0-0/',
         lastPageUrl: '',
         urls: [],
-        typos: typos[PALE],
+        typos: typos[Book.PALE],
     },
 };
 

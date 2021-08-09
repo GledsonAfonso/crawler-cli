@@ -1,9 +1,14 @@
 const Book = {
-    WORM: 'worm',
-    WARD: 'ward',
-    PACT: 'pact',
-    TWIG: 'twig',
-    PALE: 'pale',
+    WORM: 'Worm',
+    WARD: 'Ward',
+    PACT: 'Pact',
+    TWIG: 'Twig',
+    PALE: 'Pale',
 };
 
-module.exports = Book;
+const BookExtension = {
+    EPUB: '.epub',
+    MOBI: '.mobi'
+};
+
+module.exports = { Book, BookExtension };

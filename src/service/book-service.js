@@ -2,17 +2,19 @@ const fs = require('fs');
 const asyncPool = require('tiny-async-pool');
 
 const environment = require('../configuration/environment');
+const { BookExtension } = require('../model/book');
+const { generateEpub } = require('./epub-service');
 const { get } = require('./http-service');
-const { getTitleFrom, getEntry, getNextPageUrlFrom, getConfigurationFor } = require('../util/book-utils');
+const { getTitleFrom, getEntry, getNextPageUrlFrom } = require('../util/book-utils');
 
 const BOOK_URLS_DIRECTORY = 'src/configuration/book-urls';
 
-const _getBookUrlsFor = async (currentPageUrl, lastPageUrl, urls = [currentPageUrl]) => {
+const _getBookUrlsFor = async (book, currentPageUrl, lastPageUrl, urls = [currentPageUrl]) => {
     const webpage = await get(currentPageUrl);
-    const url = (`${currentPageUrl}` !== `${lastPageUrl}`) ? getNextPageUrlFrom(webpage) : undefined;
+    const url = (`${currentPageUrl}` !== `${lastPageUrl}`) ? getNextPageUrlFrom(book, webpage) : undefined;
 
     if (url) {
-        return _getBookUrlsFor(url, lastPageUrl, [...urls, url]);
+        return _getBookUrlsFor(book, url, lastPageUrl, [...urls, url]);
     } else {
         return urls;
     }
@@ -24,7 +26,7 @@ const generateBookUrlsFileFor = async (book) => {
     let template = '[\nurls\n]';
     let urlsString = '';
 
-    const urls = await _getBookUrlsFor(firstPageUrl, lastPageUrl);
+    const urls = await _getBookUrlsFor(book, firstPageUrl, lastPageUrl);
     urls.forEach(url => {
         urlsString += `"${url}",\n`;
     });
@@ -39,20 +41,21 @@ const generateBookUrlsFileFor = async (book) => {
     fs.writeFileSync(`${BOOK_URLS_DIRECTORY}/${book}_urls.json`, urlsString);
 };
 
-const getPageFor = async ({ currentPageUrl, lastPageUrl, pageNumber, typos }) => {
+const getPageFor = async ({ book, currentPageUrl, lastPageUrl, pageNumber, typos }) => {
     const webpage = await get(currentPageUrl);
 
     const title = getTitleFrom(webpage);
     const entry = getEntry(webpage, typos);
-    const nextPageUrl = (`${currentPageUrl}` !== `${lastPageUrl}`) ? getNextPageUrlFrom(webpage) : undefined;
+    const nextPageUrl = (`${currentPageUrl}` !== `${lastPageUrl}`) ? getNextPageUrlFrom(book, webpage) : undefined;
 
     return { pageNumber, title, entry, nextPageUrl };
 };
 
 const getPagesFor = async (book, poolLimit = 13) => {
-    const { lastPageUrl, urls, typos } = getConfigurationFor(book);
+    const { lastPageUrl, urls, typos } = environment[book];
 
     const configurations = urls.map((url, pageNumber) => ({
+        book,
         currentPageUrl: url,
         lastPageUrl,
         pageNumber,
@@ -62,4 +65,31 @@ const getPagesFor = async (book, poolLimit = 13) => {
     return await asyncPool(poolLimit, configurations, getPageFor);
 };
 
-module.exports = { generateBookUrlsFileFor, getPageFor, getPagesFor };
+const _generateEpub = async (book, pages) => {
+    const { title, author } = environment[book];
+
+    console.log(`Generating EPUB for ${title}...`);
+    await generateEpub(title, author, pages);
+    console.log('Done!');
+};
+
+const _generateMobi = async (book, pages) => {
+    const { title, author } = environment[book];
+
+    console.log(`book: ${book}`);
+    console.log(`extension: mobi`);
+};
+
+const generateBookFor = async (book, extension) => {
+    console.log('Collecting pages...');
+    const pages = await getPagesFor(book);
+    console.log('Done!');
+
+    if (extension === BookExtension.EPUB) {
+        await _generateEpub(book, pages);
+    } else {
+        await _generateMobi(book, pages);
+    }
+};
+
+module.exports = { generateBookUrlsFileFor, getPageFor, getPagesFor, generateBookFor };
