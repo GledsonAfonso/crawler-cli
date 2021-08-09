@@ -81,7 +81,9 @@ const _generateMobi = async (book, pages) => {
 };
 
 const generateBookFor = async (book, extension) => {
+    console.log('Collecting pages...');
     const pages = await getPagesFor(book);
+    console.log('Done!');
 
     if (extension === BookExtension.EPUB) {
         await _generateEpub(book, pages);
