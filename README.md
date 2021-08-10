@@ -1,5 +1,14 @@
 # crawler-cli
 
+![Release version](https://img.shields.io/github/v/release/GledsonAfonso/crawler-cli)
+![Commits since latest release on development branch](https://img.shields.io/github/commits-since/GledsonAfonso/crawler-cli/latest/development)
+![Keywords](https://img.shields.io/github/package-json/keywords/GledsonAfonso/crawler-cli)
+![License](https://img.shields.io/github/license/GledsonAfonso/crawler-cli)
+![Languages](https://img.shields.io/github/languages/count/GledsonAfonso/crawler-cli)
+![Size](https://img.shields.io/github/repo-size/GledsonAfonso/crawler-cli)
+![Issues](https://img.shields.io/github/issues/GledsonAfonso/crawler-cli)
+![Followers](https://img.shields.io/github/followers/GledsonAfonso?style=social)
+
 > A CLI web crawler/epub converter for Wildbow's works.
 
 
