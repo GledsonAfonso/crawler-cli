@@ -1,6 +1,6 @@
 # crawler-cli
 
-![Release version](https://img.shields.io/github/v/release/GledsonAfonso/crawler-cli?include_prereleases)
+![Release version](https://img.shields.io/github/v/release/GledsonAfonso/crawler-cli)
 ![Commits since latest release on development branch](https://img.shields.io/github/commits-since/GledsonAfonso/crawler-cli/latest/development)
 ![Keywords](https://img.shields.io/github/package-json/keywords/GledsonAfonso/crawler-cli)
 ![License](https://img.shields.io/github/license/GledsonAfonso/crawler-cli)
