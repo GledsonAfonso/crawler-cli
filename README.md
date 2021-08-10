@@ -51,4 +51,4 @@ For more information about Wildbow's works, or just access to the books in their
 
 ## License
 
-The project license can be found [here](LICENSE.md).
+The project license can be found [here](https://github.com/GledsonAfonso/crawler-cli/blob/development/LICENSE).
