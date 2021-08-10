@@ -6,9 +6,4 @@ const Book = {
     PALE: 'Pale',
 };
 
-const BookExtension = {
-    EPUB: '.epub',
-    MOBI: '.mobi'
-};
-
-module.exports = { Book, BookExtension };
+module.exports = { Book };
