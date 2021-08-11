@@ -40,7 +40,7 @@ const getNextPageUrlFrom = (book, webpage) => {
     const $ = cheerio.load(webpage);
     let nextPageUrl = $('a:contains("Next")').attr('href');
 
-    if (!nextPageUrl.includes(rootUrl)) {
+    if (nextPageUrl && !nextPageUrl.includes(rootUrl)) {
         nextPageUrl = `${rootUrl}${nextPageUrl}`;
     }
 
