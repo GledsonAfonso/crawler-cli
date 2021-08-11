@@ -45,6 +45,10 @@ yarn start
 
 A menu should show up with the books available to download and convert. Choose your option and just wait until its finished. The `.epub` files can be found at `crawler-cli/epub/` directory.
 
+![demo](https://github.com/GledsonAfonso/crawler-cli/blob/master/documentation/gif/crawler-cli-demo.gif)
+
+*The demo is edited to speed up the example, but it usually takes a little more time to finish the epub creation*
+
 
 ## Source material
 
