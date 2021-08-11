@@ -11,6 +11,14 @@
 > A CLI web crawler/epub converter for Wildbow's works.
 
 
+## Prerequisites
+
+Before running this CLI, you'll need to have installed on your computer the following:
+
+- [NodeJS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+
+
 ## Setup
 
 Before running the project, you will need to install its dependencies. For that, run:
