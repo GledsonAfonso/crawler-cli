@@ -614,4 +614,407 @@ const lastPage = `<p>Wind, the purr of the engine, they blended together to make
 <p>In Dominic’s peripheral vision, the sparrow was joined by its smaller companion, and the two drifted out in the general direction of the lake.</p>
 <p>The way got clearer as they got further from Toronto and the annoyance of the slower traffic around the ghost town. He smiled, accelerating, content to be leaving it all behind.</p>`;
 
-module.exports = { firstPage, lastPage };
+const bonds1_2 = `<p>I was dressed and heading out the door in less than a minute, a plain black toque pulled over my hair. I had to fumble around for a moment to manage the coat I was getting on, the backpack I’d stuffed with spare shirts, sweaters and underwear, and the keys I needed to lock my apartment.</p>
+<p>I reached the stairwell and took the stairs three at a time, descending each half-flight of stairs in two steps.</p>
+<p>Mirror people, visions of talking dogs and stretched faces, vampire hunters or witch hunters or whatever they were. It was unbelievable, impossible to wrap my head around. So I didn’t believe it, didn’t try to understand it. I didn’t <em>disbelieve</em> it either. I was processing it, really, filing it all away for future consideration.</p>
+<p>It was stupid, maybe, crazy, to dismiss it. By all right, my worldview should have been turned upside down by this.</p>
+<p>Except other things were taking a kind of priority, demanding consideration, turning my life upside down.</p>
+<p>Molly was dead. I’d heard it, and I believed it. Taken alone, the statement might have meant little, but I’d had an ominous feeling since leaving the inheritance gathering. Right here, right now, I felt like it <em>fit</em>. I didn’t want it to, but it fit.</p>
+<p>The gathering had been the first time I had seen Molly since we were kids. I could barely guess what she was like now, as a near-adult.</p>
+<p>What she <em>had</em> been like, as an almost adult. I felt a twist of worry, and a fair bit of anger. Why hadn’t she <em>called</em> me?</p>
+<p>For all the impact my family had had on my life, there were very few people I had ever had a connection with. I had never been mistreated, exactly, but there hadn’t been a lot of love to go around either. Molly and Paige had been the ones to greet me with smiles on their faces, to hug me instead of offering an informal handshake. We’d played together, laughed, and bridged the gap between being family to being friends.</p>
+<p>When I thought of Molly, I thought of the child she had been ten years ago, not the young woman I’d briefly met at the end of the summer. When I reminded myself that she could well be dead, I felt like I’d lost something from a relatively small pool of happy family memories.</p>
+<p>I reached the bottom of the stairwell, and as I hurried down the length of the hallway, past the elevators that would have taken too long to use, I was still trying to frame it all in my head.</p>
+<p>Molly’s death wouldn’t have been random. There had been a reason, and that reason had driven my grandmother to do what she’d done. All of the fallout from that, the divide in the family, the animosity that had driven me from home to a cold, hostile, unfriendly world, shared that same root <em>cause</em>. It was hard to pin how much of my haste was self preservation and how much was my desire to get answers.</p>
+<p>Molly was dead. I believed it. I could figure it out, I could get the world in alignment again, so things made <em>sense</em>.</p>
+<p>If it was even possible for things to make sense with talking animals and twisted mirror-cities.</p>
+<p>I stopped at the doors at the end of the lobby, paused, then knocked.</p>
+<p>It took time for the door to open. I worked on getting my scarf on and making sure my backpack was buckled shut, keys stowed away.</p>
+<p>The door opened, and my bear of a landlord stood in the way, leveling a stare at me. He wore an undershirt that strained across his stomach, and pyjama pants with pink and magenta stripes, with thick-frame glasses and thick caterpillar eyebrows on an otherwise hairless, unadorned head.</p>
+<p>“Blake? It’s five in the morning.” He had a trace of a Quebecois accent.</p>
+<p>“Joel. It’s an emergency. I need your car.”</p>
+<p>“Yeah?” He switched from annoyance to concern in an instant. “Need a ride?”</p>
+<p>“Out of town emergency. I’ve got to steal your car for a bit. Please.”</p>
+<p>“How long?” he asked, turning away from the door.</p>
+<p>I could see the mirror that was opposite the front door, wide and tall, with an ostentatious frame. The mirror girl was on the other side, staring at me.</p>
+<p>“I don’t know,” I said.</p>
+<p>He turned back to me, holding keys firmly in his fist. His bulk blocked my view of the girl in the mirror. “Work with me here, Blake. I need <em>something, </em>if I’m loaning you my car<em>.</em>”</p>
+<p>“I don’t know,” I repeated myself. “But I’ve got to go, I can’t ride my bike in this weather, and there isn’t any other way to get there. I’m stuck, and I don’t know how to handle this.”</p>
+<p>“Slow down. What happened?”</p>
+<p>“I think my cousin died. It’s two hours away, so if you needed the car, I could bring it back in a pinch, figure a way to get back, or-”</p>
+<p>“Shhh,” he interrupted me. I made myself stop. Very calm, soothing, he said, “It’s <em>fine</em>. I’m so sorry about your cousin, baby.”</p>
+<p>I shrugged, breaking eye contact. I wasn’t good with people being kind to me. Not without some warning. “I’m not sure it’s true. It doesn’t make sense.”</p>
+<p>“Go, do what you need to do,” he said. He extended his hand, keys dangling from the ring that was now around his middle finger.</p>
+<p>I took the keys, then fumbled with my own. I held my bike key for a moment, weighing it in my hand, then handed it over.</p>
+<p>“You don’t need to,” Joel said.</p>
+<p>“I do,” I said. “For me, as much as for you. I’m- it’ll make sure I don’t forget your car back to you soon, because I’ll miss it, and that’ll remind me.”</p>
+<p>He nodded, then took my key. “I got you.”</p>
+<p>“Thank you, Joel,” I said.</p>
+<p>“You have my number, if you need it.”</p>
+<p>I nodded. “You’re a good friend.”</p>
+<p>“Speaking of… weren’t you going to set things up for Goosh’s show?”</p>
+<p>I winced. My job. “I didn’t think. I don’t- <em>shit.</em>”</p>
+<p>“It’s fine. I’ll explain to the others. We’ll use the Sisters.”</p>
+<p>“Goosh told me she wanted to kill them, the last time she hired them.”</p>
+<p>“She’ll find a way to cope, after I explain what’s up. Don’t worry. You focus on what you need to, and trust us to have your back. Okay?”</p>
+<p>I nodded.</p>
+<p>“There’s a hug here if you want or need it.”</p>
+<p>I hesitated, but he knew that I would.</p>
+<p>The lights went out. We were plunged into darkness, the hallway and lobby lit only by the moonlight that reflected off the snow.</p>
+<p>I could see movement behind Joel. The girl in the mirror, moving her arms.</p>
+<p>“Power outage?” he asked, stepping further into the hallway to look around.</p>
+<p>“Looks like,” I said. My eyes were on the mirror. If he turned around, would he see her?</p>
+<p>“I should go make sure everything’s okay,” he said. “Might be the breaker.”</p>
+<p>The girl in the mirror raised her arms. Forearms crossed against one another, forming an ‘x’.</p>
+<p>“Do me another huge favor?” I asked.</p>
+<p>“What’s that?” Joel replied.</p>
+<p>When he looked at me, I had trouble meeting his eyes. I wasn’t used to omitting the truth when dealing with friends. “Go back to bed. Sleep. I’ve got a bad feeling, and I’m not sure if it’s just because I feel like you’ll never get back to bed if you go now or if it’s something else. But I’ve got to go, and I feel like I’d be a lot happier if I knew you were in bed, instead of wandering around a dark building alone.”</p>
+<p>“Gut feeling?” he asked. “That’s not like you.”</p>
+<p>“Gut feeling,” I said. “Instincts.”</p>
+<p>“Yeah,” he said. “Sure. For your instincts, I’ll be lazy this morning. Until I get the first irate phone call.”</p>
+<p>I nodded. Then I accepted his offer for a hug, reaching out. He folded his arms around me, warm.</p>
+<p>The girl in the mirror looked nervous, pacing back and forth, occasionally peering around, as if she could get a different perspective. A moment later, she strode out of view, stepping beyond the boundaries of the frame.</p>
+<p>I took that as my cue to go. As I broke the hug, Joel rubbed his hand over the toque and then gave me a little push, an urging to get going.</p>
+<p>I got going.</p>
+<p>His car was in the garage, a few steps away, through a heavy door. I hit the button to raise the big garage door, and watched as the wall of snow that the wind had driven against the door tipped over, breaking into chunks as it hit the damp pavement.</p>
+<p>I unlocked Joel’s Corolla, a car old enough that the only way to open the door was to actually put the key in the lock, and then stopped.</p>
+<p>I moved the rear-view mirror until I had a view of the girl in the back seat.</p>
+<p>“Answers,” I said.</p>
+<p>“Go, and I’ll give you answers,” she responded. She sounded even fainter and more muffled than before. “You think the lights went out by coincidence?”</p>
+<p>If I went, I’d get answers from her. I’d get answers from the house, about Molly…</p>
+<p>Answers were good. I took a second to familiarize myself with both the car and with cars in general, where things were and how to operate the things.</p>
+<p>In moments, both me and the car were traveling down the near-empty streets.</p>
+<p>“Okay,” she said.</p>
+<p>“Your name?”</p>
+<p>“Rose.”</p>
+<p>“Rose… who are you supposed to be? My grandmother?”</p>
+<p>“No. I think I’m you. Your- our parents named me after her.”</p>
+<p>I was silent, taking that in.</p>
+<p>“I know I’m supposed to say something witty here, make a quip, but I’m barely thinking straight,” I said.</p>
+<p>“I’m you, with one fundamental difference,” Rose elaborated. “I’m a girl. I think grandmother is trying to game the system somehow. A failsafe or trap or <em>something</em>, that kicks in when Molly dies and the inheritance turns over.”</p>
+<p>The reminder of Molly’s death was a slap in the face. “How did you know, that Molly’s dead?”</p>
+<p>“That’s complicated.”</p>
+<p>“Two hour drive, Rose. We have time for a complicated explanation.”</p>
+<p>“Not the time consuming kind of complicated. This stuff was <em>explained</em> to me. I crashed into existence, with only a few places I could go. I’ve got a lifetime of memories, but I get that I’m a fake. If I were real, I wouldn’t be sitting here, surrounded by an awful lot of darkness. I’d have a proper <em>heartbeat</em>, instead of this slow motion thump every few seconds, staying the same even when I’m freaked out. I see a bit of a glimmer of an outline here or there, where the light’s really strong on your end. But there aren’t many places I can go, Blake. Patches of light, where light passes through the mirrors. Only the mirrors in the house, and the mirrors around <em>you </em>count.”</p>
+<p>I glanced up at the rear view mirror. She looked upset, her knees drawn up to her chin, feet on the seat in front of her. Was she cold, sitting there in pyjama pants and a camisole, barefoot in a car where my breath fogged up? Or were the lack of breath and response to the temperature the same as her heartbeat? Something false or simplified?</p>
+<p>I couldn’t look at her for too long, given the need to focus on the road. I pulled onto the highway, double and then triple checking there weren’t any cars coming.</p>
+<p>Rose kept talking. “The lawyer, Beasley, he was cleaning up. Picking up books and stuff that Molly left lying around. When I asked what was going on, he said you were next in line, for custody of the house. After you, it’s Kathy, then Ellie, then Roxanne, then Ivy, then Paige.”</p>
+<p>“Paige is last?” I asked. Okay, I got that maybe Kathryn would fit. She was a mom, a professional. A serious personality. Maybe a bit cutthroat, but I could get that.</p>
+<p>“Paige is last,” she said.</p>
+<p>Placing the two and twelve year old in the list before <em>Paige</em>? Placing <em>me</em> in the running?</p>
+<p>“Doesn’t make sense,” I said.</p>
+<p>“Yeah. I don’t know. I didn’t stay for explanations. Depending on how things went, he said, we could run down that list <em>really</em> quickly. He said it depends on how fast people can get to the house, and how fast they can get to grips with all this. He said I should find you, and I found you.”</p>
+<p>Far less in the way of answers than I’d hoped for.</p>
+<p>I drove in silence for a few minutes.</p>
+<p>The answers only raised more questions. How did Paige fit into this? How did <em>I</em> fit into it? Most confusing of all… Rose.</p>
+<p>“What I’m wondering is… you,” I said.</p>
+<p>“I’m wondering about me too,” she said. “Trust me, if you’re wondering if I’m suspicious, if there’s a catch here, I’m wondering too.”</p>
+<p>“How do your memories line up? Molly got picked, but… you were at the house?”</p>
+<p>“I was home, with mom and dad. They’re mad, you know, obviously, because I didn’t get Hillsglade House, and they thought it was as close to a given as you could get. Mad at me, especially. I was in bed, mostly asleep, and then I was at the house. I remember everything about my life, but I don’t feel like I experienced any of it. You know?”</p>
+<p>“Not really,” I said. I watched the tail lights of a truck ahead of me disappearing into the snowy fog, further down the arrow-straight highway. I was driving slower, because I didn’t have much winter driving experience, and I didn’t want to total Joel’s car. Noting a silence that had followed my response, I tried to keep the discussion going. “You still live with mom and dad?”</p>
+<p>“While I’m going to school,” she said.</p>
+<p>“You didn’t leave?”</p>
+<p>“No. Why? When did you move out?”</p>
+<p><em>Move out</em>. She didn’t know about me leaving home.</p>
+<p>“A bit ago,” I said, noncommittal. No use volunteering unnecessary information.</p>
+<p><em>What’s the magic loophole</em>?</p>
+<p>If Rose was a failsafe, who or what was it trying to work around? If it was a trap, then who was the supposed victim? Was there an enemy? Or was it a trap aimed at <em>me</em>?</p>
+<p>Was there a chance this was all a lie?</p>
+<p>I could wonder if I was losing my mind, but… I felt lucid.</p>
+<p>While that wasn’t a guarantee I was sane, I knew, but I felt lucid, and it was hard to sell myself the idea that I was insane, if there weren’t any clear symptoms.</p>
+<p>I was seeing things, but having two points of reference would have made it a lot easier, giving me a kind of perspective on it all.</p>
+<p>My hands were clutching the wheel so hard that it was painful. I had to consciously will myself to relax.</p>
+<p>“Rose, talk to me,” I said. “There isn’t nearly enough information to piece things together, and I’m not going to make it through this drive if I’ve only got my own worries and paranoia to fill the time.”</p>
+<p>“What do you want me to say?”</p>
+<p>“You seemed to know <em>something</em> was up, with the power going out.”</p>
+<p>“There was a presence. Like… almost as if there was a patch of something lighter in the darkness, or a sound I could barely hear, or a movement of the air, here, where the air doesn’t move at all. <em>Something</em> was there.”</p>
+<p><em>Something</em>.</p>
+<p>“This isn’t helping the paranoia,” I said.</p>
+<p>“I’m not any happier,” she said. “If something chases us, <em>you</em> can run. Where can I run? There isn’t much room, on this side.”</p>
+<p>“Yet you broke the mirror. Speaking of, how did you know you could break it?”</p>
+<p>“I <em>didn’t</em>. That was an accident, and I wish I hadn’t done it. It <em>hurt</em>, and I feel drained, and I feel tired. It <em>took</em> something out of me, doing that, and I’m not sure I have that much to give.”</p>
+<p>“Rose, are you understanding what I’m getting at? There’s a few things here that aren’t making sense. Crazy hallucinations or whatever else.”</p>
+<p>“You had the visions too?”</p>
+<p>“<em>Rose,</em>” I said, speaking a little firmer, to keep her on track. “The more time I have to think about all this, the less I feel like I can trust you. How did you know how to get from the light at the house to <em>me</em>? Considering that this all supposedly started less than an hour ago, you’re picking it up pretty damn fast.”</p>
+<p>“It’s not- no. Blake, the lawyer <em>told</em> me to go. He pointed in a direction, and told me to take a leap of faith if I wanted to help you. I did what he said, and now I’m here. I’m jumping from mirror to mirror, and I’m worried I’m going to jump and I’ll <em>miss</em>, and I’m not sure what happens when I do.”</p>
+<p>“You left out that part,” I said. “About him telling you how to jump. That’s context I could have used.”</p>
+<p>“I’m <em>not</em> your enemy, here,” she said, and her voice was harder, angrier.</p>
+<p>If I was planning to press the subject, the plan had to go on hold.</p>
+<p>I saw a figure standing in the middle of the highway, in the distance.</p>
+<p>I slowed the car.</p>
+<p>“What is it?” Rose asked.</p>
+<p>It was a person, tall, dressed in a long cloak or layered garment of some sort. Right in the middle of the road. The cloth had been white to begin with, it looked like, but it was badly stained. He –<em>or she</em>– wore a mask or a helmet shaped like an overlarge bird’s skull, with a pair of antlers.</p>
+<p>I didn’t have a lot of time to take it in. Even though I was driving slowly, even though I was slowing down, I was closing the distance. I didn’t want to <em>stop</em>, but…</p>
+<p>I turned to go around, giving the white thing as much clearance as I could. It stayed where it was, standing in place. There were no other cars on the highway, coming or going. Woods on one side, field on the other. Not that I could see all that far. Snow flurries made vision past a point a little difficult.</p>
+<p>“I can feel it,” Rose said. When I glanced up, she was looking over one shoulder. “I can see it, almost, standing between the patches of light.”</p>
+<p>We flew past it. I could see its head turn to follow us. The drape it wore had no sleeves. It wore hides, almost white, except where the slush and dirt had marred it.</p>
+<p>I had to move the rearview mirror to get a better view of it as we left it behind.</p>
+<p>A sign of things to come? A harbinger?</p>
+<p>My heart was pounding.</p>
+<p>“What <em>was</em> that?” she asked.</p>
+<p>“I don’t know. Something wearing a bird skull mask and tanned skins.”</p>
+<p>“What are we going to do?” she asked, with a note of panic in her voice.</p>
+<p><em>What am I going to do, you mean</em>, I thought. <em>You’re on the other side of a mirror</em>.</p>
+<p>“It’s gone,” I said.</p>
+<p>“What? No. No it isn’t,” she answered. Panic was now highlighted by confusion, incredulity. “It’s <em>close</em>.”</p>
+<p>I looked back, but the figure was nearly impossible to make out against the backdrop of falling snow.</p>
+<p>“We left it behind,” I said, firmer.</p>
+<p>“You got close, and it latched on,” Rose said. “Believe me on this.”</p>
+<p>Again, I turned around, trying to see where it might have done so. Nothing outside the windows, nothing in the mirrors.</p>
+<p>When I returned my attention to the road, my eyes darting up to the mirror, she insisted, “It <em>did</em>. It still feels like it’s <em>here</em>.”</p>
+<p>I set my jaw. What was I supposed to do if it was? If it could reach out and grab the car with some invisible hand, or if there was something screwed up going on, then what options did I really have?</p>
+<p>I didn’t have weapons. I didn’t have much of anything. Even information was scarce. How was I supposed to label the bird skull thing?</p>
+<p>It was only when I settled down, returning my attention to the drive ahead of me, that I saw the trouble.</p>
+<p>The fuel gauge was dropping steadily.</p>
+<p>It had been three quarters of the way full when I’d started driving. Now it was at the twenty percent mark.</p>
+<p>The orange needle dropped faster with every passing second.</p>
+<p>It had latched on, but not <em>physically</em>. Something else.</p>
+<p>“The car’s dying,” I said.</p>
+<p>“Gas station?” Rose asked.</p>
+<p>“There’s a rest stop,” I said. “Restaurants, gas, bathrooms, stores. I think that’s what the sign said it was two kilometers away. Might be a bit further.”</p>
+<p><em>Ten percent.</em></p>
+<p>“Can you make it?”</p>
+<p><em>Eight percent.</em></p>
+<p>“No,” I said. “Not with the car.”</p>
+<p>I watched as the needle stopped descending. No further to go.</p>
+<p>The car shuddered, and the gas pedal quit on me. I saw the lights on the dash and the radio dim, then go out entirely.</p>
+<p>I switched to neutral, hoping to coast, but there was nothing. I pulled over, instead. I tried to activate the hazard lights. No luck.</p>
+<p>When I got my cell phone, a cheap non-smart phone, I found it dark.</p>
+<p>I saw one car zip by on the other side of the divider. I hopped out, flailing my arms, but it was useless. Too little, too late.</p>
+<p>“Guess I’m walking,” I said. I drummed the steering wheel for a second, thinking. In front and behind me, the snow looked a pale blue in the moonlight, broken up by the dark shapes of trees. Here and there, the street lights tinted things orange. The road was a stripe of black in the gloom.</p>
+<p>“Bring a mirror,” Rose said. “Please.”</p>
+<p>I looked around. Nothing. Joel kept a neat car. Aside from an abundance of paperwork in the drive compartment, and between the front and passenger seats, it was tidy, and tidy meant it was easy to see there wasn’t anything like that nearby.</p>
+<p>“Sorry, Joel,” I said. I reached up to grab the rear view mirror. There were tabs I needed to depress. I had to pull off my gloves to get a good grip. I fumbled with it some more.</p>
+<p>“Blake,” Rose said. “Blake!”</p>
+<p>I moved the mirror to look at her, and saw her pointing.</p>
+<p>I turned.</p>
+<p>Behind us, beyond a point where the snow obscured the road, I saw the dim orange of the street light flicker, then die, swallowed up by the swirl of white.</p>
+<p>“No time to get the mirror, Rose,” I said. I made sure I had the other essentials. Hat, scarf, gloves, backpack, coat…</p>
+<p>“Break it off?”</p>
+<p>I reached up and pulled. It didn’t budge. I hit it with the side of my arm, with no more effect.</p>
+<p>“I can’t,” I said.</p>
+<p>“You <em>cannot</em> leave me here!” There was a note of hysteria in her voice.</p>
+<p>I pulled out my cell phone. An older model I could slide open to get at the keyboard. The screen was scuffed badly from sitting in my pockets alongside change and my keys. “Does this work? There’s a reflection in the screen.”</p>
+<p>“No,” she said. “Barely anything coming through”</p>
+<p>I hesitated, then used my bag, looping the strap around the mirror. I hauled down with almost all of my weight.</p>
+<p>It snapped off.</p>
+<p>“Good,” I said. “With me?”</p>
+<p>“With you,” she said.</p>
+<p>I hopped out of the car, heading into the back seat to search for anything I could use. There were a pair of skates, a bag laid out flat with a suit inside, clearly Joel’s. When I lifted up the panel at the back of the car, I found the spare tire and a slot for the tire iron. I grabbed the iron.</p>
+<p>I left the car behind, pausing one second to lock it, and then got moving. I maintained a speed that was faster than an ordinary walk, not quite a jog. Busy walking, I jammed the mirror in the front pocket of my coat, so one end stuck out. My hands went in my pockets, one end of the tire iron finding the inside pocket, the length resting against my forearm.  I hunched over to help shield my face with the collar of my coat, preparing. Conserving strength, conserving heat.</p>
+<p>I was a fast walker. Two kilometers… that was about twenty minutes?</p>
+<p>I didn’t want to go so fast that I’d have to stop before I got to shelter. So long as I kept moving, I was warm. When I stopped, the cold would set in. Twenty minutes of brisk walking.</p>
+<p>When I finally broke and glanced back, I saw there were less lights than before. The thing was following me. I couldn’t be sure of the speed it was moving, given how it was out of sight. I couldn’t tell, either, if it was catching up.</p>
+<p>“Talk to me, Rose,” I mumbled, past my scarf and the collar of my coat. “Can you feel it getting closer?”</p>
+<p>There was no reply. I drew my free hand from the pocket and pulled the mirror free.</p>
+<p>Fat, wet flakes of snow had clustered against the surface. With one hand, I rubbed it against my thigh.</p>
+<p>Beads of water still obscured the surface.</p>
+<p>“Rose?” I tried.</p>
+<p>There was no response. Already, the mirror was fogging up from the momentary warmth and the moisture.</p>
+<p>If the cell phone hadn’t worked because it was scuffed, then this might be having the same problems. I needed a <em>clear</em> reflection, apparently.</p>
+<p>I picked up the pace a little. I placed the mirror inside my coat, in the slot where I was supposed to stick my phone. Closer to my body, warmer, where my shirt and the pocket could maybe dry off the moisture. The ‘arm’ of the mirror rubbed against my chest as I marched.</p>
+<p>The snow that had piled up at the edge of the road, before the ditch that divided the highway from the nearby fields meant I had to walk out on the road itself. Walking through the snow would slow me down, and I needed speed. I was in a dangerous position, ready to be clipped by a car in the cruising lane.</p>
+<p>My heart thudded in my chest. A short walk, I reassured myself.</p>
+<p>I looked back, to look for cars, and to see the thing’s progress.</p>
+<p>It was close enough for me to make it out. It was making long, powerful strides, at a speed I couldn’t have maintained without risking collapse. The hides it wore flew out to the side as the legs moved, but I couldn’t make out the legs themselves.</p>
+<p>I pushed myself a fraction faster, but I knew it wasn’t quite enough to make a difference.</p>
+<p>Still, there were no cars on the road. I needed <em>one</em> passerby. One person to stop and offer me a lift.</p>
+<p>Except I couldn’t be sure it would work. They might find themselves running out of gas in some inexplicable manner. Then the good Samaritan would be caught up in this.</p>
+<p>I glanced back. It was closer, closing the distance with every step.</p>
+<p>The wind picked up, and I had to close my eyes in the face of the headwind. There were tears in my eyes when I opened them. Totally the wind. My army surplus boots squeaked against the soft snow and crunched against the harder snow as I marched.</p>
+<p>I heard a fluttering noise. Turning to look, I saw that one of the flaps of hide were whipping around in the wind. The footsteps, by contrast, were nearly silent. No squeaks, no crunches, no cracks of ice being broken or scuffs of salt and pavement underfoot.</p>
+<p>It was close enough for me to hear.</p>
+<p>Better now than never. I turned around, drawing out the tire iron.</p>
+<p>“Fine!” I roared the words against the wind. I drew the tire iron from my pocket, gripping it with gloved hands. I could feel how cold the metal was. “You want me!?”</p>
+<p>It closed the distance. Two feet taller than me, and I was a notch taller than average. The point of the giant bird mask came dangerously close as I swung the tire iron, bending my legs as I swung low, to strike it in the knee.</p>
+<p>I had only a moment to register the fact that it wasn’t reacting before it drew a hand out of the layered covering of hides. A <em>mitt</em> of a hand, gray-skinned, with knobby knuckles, and fingernails that were just long enough they were starting to curl, almost rectangular. Dirty, uneven, frayed.</p>
+<p>I swung again, a two-handed grip on the iron, aiming for the hand.</p>
+<p>I might as well have struck another tire iron, for all it mattered. The weapon bounced off the hand, the hand was knocked back, and then it clawed at my face. I twisted partially away, keeping it from getting my eyes, and felt the pain in my cheek, instead. I backed away, and my scarf stayed. Caught in the ragged ends of the nails.</p>
+<p>The wind was cold against my face as I backed up. I started to head back in the direction of the rest stop, but the thing circled around me, moving past me, until it was positioned to cut me off.</p>
+<p>My scarf was caught by the wind, flapping mercilessly, until it tore free, disappearing over the dividing line of the highway.</p>
+<p>I raised the tire iron again, drawing closer. It, in turn, drew one arm out from beneath the hides. I drew back a step, and it kept the hand out a moment before returning it to shelter.</p>
+<p>“Rose,” I spoke, “Hey, Rose. You gotta help me out here.”</p>
+<p>The mirror was silent.</p>
+<p>I backed away, and it moved, approaching with long strides that covered the distance with surprising speed.</p>
+<p>I stopped, and it stopped.</p>
+<p>“Don’t want me to go to the rest stop,” I murmured. There was a hitch in my voice. “Don’t want me to go back to the car. Where am I supposed to go? This way?”</p>
+<p>I checked the way was clear, then took a step out onto the highway. It reacted, but only barely. Tensing. When I took another step, it followed. Letting me go, but not letting me <em>escape</em>.</p>
+<p>“No way,” I said. Taking a step to the side, so I was as off the road as I could get without standing in the snowbank. “I get what you’re after. You want me to get hit by a car or something.”</p>
+<p>The thing remained silent. Waiting. The perfectly round eye sockets stared at me.</p>
+<p>I swung, aiming for surprise, directing the iron at the skull.</p>
+<p>It caught the iron mid-swing. I tried to wrench the weapon free and failed.</p>
+<p>Another hand emerged from beneath the hides. I had to let go of the weapon and back away before it could claw at me.</p>
+<p>It took a half-step forward to follow. It dropped the tire iron onto the road, where the snow muffled the sound.</p>
+<p>Standing still, waiting for this thing to make a move, I could feel my legs getting colder. I wasn’t wearing long johns. Boxer briefs and jeans, leaving my legs as the least covered part of my body. The cold highlighted the tension in my legs, where my earlier pace had stressed muscles I tended to leave unused.</p>
+<p>“How does this end, then?” I asked. “We wait out here by the side of the road until I freeze to death?”</p>
+<p>I paced, watching how it followed. The knobby, long-fingered hand came out as I drew too close.</p>
+<p>There was a hint of hysteria in my voice as I spoke, “Can’t go forward, can’t go back. I won’t go left.  Will you let me go right?”</p>
+<p>I edged towards the snowbank, to test. A ditch, then fields. The strong wind had blown the worst of the snow away. It wouldn’t be too deep.</p>
+<p>I took another step. It moved to follow, though it let me create a bit of distance.</p>
+<p>Slowly, I climbed over the snowbank. It continued to let me build up a bit of distance.</p>
+<p>I hit the ditch, where some stubborn tall grass stuck up here and there, and hopped over the shallowest part, where the wind had driven snow off of the ice that had frozen in the recess.</p>
+<p>The hop hadn’t inspired a sudden attack. Briefly turning my back, too, seemed like it was fairly safe.</p>
+<p>That in mind, when I found flat ground under my feet again, I <em>ran</em>.</p>
+<p>The field was flat, the ground hard, and the snow only ankle deep. The deep treads of my boots gave me the traction I needed to find my pace. When the spaces filled up with snow, the snow-on-snow traction was still sufficient for me to maintain a good pace.</p>
+<p>I slipped, but my other foot was already coming forward. I felt a <em>twang</em> in my back as I used the leg to thrust myself back up to a fully upright position. I wasn’t unfamiliar with the feeling. I’d feel it tomorrow, if I made it that long.</p>
+<p>A quick glance back indicated it was following with those same long, steady strides as before. Running was letting me create some distance.</p>
+<p>Across the field, away from the highway, away from the car and the rest stop.</p>
+<p>I was fully aware of what was going on. I knew it was intentional, and that this was as good a way of having me die in a perfectly plausible manner as keeping me in the middle of the highway, where a car could clip me.</p>
+<p>Thing was, I’d never been able to sit still while under stress. I couldn’t bring myself to stand beside the side of the road and get cold.</p>
+<p>Fear was taking my breathing and heartbeat up a few notches, which was hurting more than it was helping. There was a frantic note to my breathing as I panted, my legs ached, and my thoughts were a jumble.</p>
+<p>“Rose,” I gasped out the name. I fumbled for the mirror, but my hands were frozen. I got a grip on the bar that was supposed to fix the mirror to the ceiling and pulled it out.</p>
+<p>“-here.”</p>
+<p>Her voice was faint, tiny, and muffled, cutting off as though someone had reached out to muffle her.</p>
+<p>Not someone, but <em>something</em>. Fog, again, had clouded the mirror. I wiped it with my glove. I saw only a momentary glimpse of her.</p>
+<p>Letting it get damp, then letting it get warm, both were mucking it up. I held it, letting it cool off, and tried to keep it facing down, so snow wouldn’t settle on the surface.</p>
+<p>I kept running. I prayed for a side street, a side road, a <em>house</em>. Shelter. Something to indicate I wouldn’t keep running into the wilderness until I could no longer move. The snow got deeper as I approached tree cover, where the wind wasn’t as strong. My pace began to slow, with nothing of import in sight.</p>
+<p>I could feel a sick feeling in my gut, a combination of fear, despair, and the exhaustion of running.</p>
+<p>I saw a figure up ahead, through the tree cover.</p>
+<p>A quick glance back showed me the other one was still following. Closing the gap.</p>
+<p>“Hello!” I called out, and I was surprised at how hoarse my voice was, my throat made raw by the heavy breathing of frozen, dry air. “Help me!”</p>
+<p>The figure pushed through the cover of branches.</p>
+<p>A bird skull, a covering of overlapping hides, bleached white and stained, and a heavy wreath of branches around the neck and shoulders, like a nest.</p>
+<p>I stopped in my tracks. When I took in my surroundings, my vision swam, struggling to make the adjustment from the narrow focus on where I was going and where my feet were landing to the broader environment.</p>
+<p>There, in the distance, in a gap between neat rows of trees. A third, with the hides forming a hood over the bird skull. Shorter than the others.</p>
+<p>I turned to head for the widest gap I could make out, and they all moved, not to close the distance to me, but to cut me off. The calf-deep snow didn’t slow them down. Even if it did, they had a longer stride, and they weren’t getting tired.</p>
+<p>I pushed on, moving towards the gap, forcing myself to run. They continued to follow, but I made it between the ones with the antlers and the wreath.</p>
+<p>Backtracking, almost. I needed to devote a second to getting my bearings, but I had to keep running.</p>
+<p>“Rose,” I said.</p>
+<p>I heard only a whisper of a noise. I wiped the mirror against the side of my leg, mid-run.</p>
+<p>I came face to face with another of the bird-skulls, not looking carefully enough for the white skull and white hides against the snowy background. It clawed at me, backhanded, and dashed the mirror out of my hands. I fell, a result of the combined impact, pain and surprise, landing just beside the flecks of blood he’d clawed from my hand. My glove was cut, the skin around it exposed, and a line of blood was nestled in the center. Bewildered, I watched as the skin parted and joined together, as I opened and closed my hand.</p>
+<p>The wind blew, and I heard the flapping of the hides moving. Others were drawing closer.</p>
+<p>The one that had just attacked me wore cords strung between hides, each with a long, narrow bone hanging from it.</p>
+<p>The others were approaching, with some coming from a distance. All around me, there were clusters of evergreens, branches hanging heavy with ice and snow, and there were patches of grass. One clearing, where a pond had frozen over.</p>
+<p>Slowly, I made my way to my feet.</p>
+<p>I tested different directions, to see how they would react.</p>
+<p>This time, they weren’t keen on letting me move towards any open ground. Clusters of trees, the pond, and areas where the snow had piled higher.</p>
+<p>The pond, then. I made my way over, my wounded hand pressed to my chest by my other hand.</p>
+<p>No mirror, no Rose.</p>
+<p>Frozen earth crunched under my boots as I made my way to the frozen pond. Every footstep <em>hurt</em>.</p>
+<p>Were they wanting me to try to cross? Was that the plan?</p>
+<p>I sat by the bank instead.</p>
+<p>I looked at the bird masks that had gathered formed a loose three-quarter circle around me.</p>
+<p>“This okay with you bastards?” I asked. “Can I sit? You like this?”</p>
+<p>The hides flapped in the wind.</p>
+<p>“Motherfuckers,” I said. I moved my hands up to my armpits, squishing them beneath my arms. I could feel the pain in my wounded hand. My cheek felt tight where I’d been scratched.</p>
+<p>I kicked at the ice on the pond. Methodical, careful strikes delivered with the heels of my boots, to break up the surface.</p>
+<p>It took a good fifteen hits before the cracks spread.</p>
+<p>I used the toe of my boot to flip one large, two-inch thick piece of ice out of the way.</p>
+<p>“Please tell me reflections in water work too.”</p>
+<p>“Yeah,” she responded.</p>
+<p>“You see them?”</p>
+<p>“Yeah.”</p>
+<p>“I went to a lot of trouble to talk to you,” I said, trying to ignore the looming individuals who were standing behind me. “I need more than one word answers.”</p>
+<p>“I don’t know what to say.”</p>
+<p>“You’re not in <em>immediate</em> danger. You’re not in pain, I hope. They’re after me, not you. So I’m hoping you’re thinking a little clearer than I am.”</p>
+<p>“Not- not really.”</p>
+<p>I sighed.</p>
+<p>A minute passed. I could feel the chill creeping in.</p>
+<p>“I don’t think they’ve got brains in those skulls,” I said. “Someone gave them orders.”</p>
+<p>“Makes sense. Who?”</p>
+<p>“Does it matter? I think those orders are why they’re behaving this way. Barring my path to keep me from certain areas. Driving me away from shelter, wearing me out.”</p>
+<p>“They want plausible deaths.”</p>
+<p>“Yeah. Newspaper runs an article on page seven about the poor idiot who broke down by the side of the highway, wandered into the middle lane and got hit, or got lost in the woods. No mention of eerily patient bird-masked antler horrors. They interview my landlord, he mentions I was acting funny, and cousin Kathryn is the one who wakes up with spooky visions, a few hours later.”</p>
+<p>“Go for an <em>implausible</em> death?”</p>
+<p>“Not sure how I’m supposed to do that,” I said. I sighed, and my teeth chattered as the air passed through my lips. “All I can figure is they don’t want to claw me to death.”</p>
+<p>“Molly was clawed to death,” Rose said.</p>
+<p>I closed my eyes.</p>
+<p>“They don’t want to kill two of us the same way,” she said. “Molly was partially eaten, too, but I don’t think these guys are the type.”</p>
+<p>“You can see them?”</p>
+<p>“End of the pond,” she said. “There’s a reflection.”</p>
+<p>I looked.</p>
+<p>Another one had joined the ranks at some point, where I hadn’t been looking. Taller than the others, with two more bird skulls worn on sloped shoulders. He stood on the ice.</p>
+<p>I bowed my head again. “How many?”</p>
+<p>“No idea.”</p>
+<p>“Is this where everything ends for me, Rose? Do I die here, an ignoble death, with the mantle passing to Kathryn? Do you carry on?”</p>
+<p>“As a ghost?”</p>
+<p>“As a whatever.”</p>
+<p>“I don’t know. I think I’m bound to you, somehow.”</p>
+<p>“Right,” I said.</p>
+<p>I forced myself to my feet. I was shaking, now.</p>
+<p>“What are you thinking?” she asked.</p>
+<p>“I’m not,” I said. “I just <em>hate</em> sitting still.”</p>
+<p>“You need a plan.”</p>
+<p>“Any <em>fucking</em> ideas?” I asked.</p>
+<p>There was no response.</p>
+<p>I moved, and they moved as well. Organizing, spreading out. I backed up, and they advanced.</p>
+<p>I sat down again, regretting it instantly. Standing would be harder.</p>
+<p>The three-masked one slowly removed one mask from its shoulder.</p>
+<p>It dawned on me.</p>
+<p>That mask was going to be <em>mine</em>.</p>
+<p>My mind warred with my body. Every last part of me hated to sit still, was restless in the face of stress. But my body was starting to give up.</p>
+<p>I was so tired, I felt like I had gone two straight days without sleep.</p>
+<p>“No glimmers of light nearby?”</p>
+<p>“Not really.”</p>
+<p>“Define <em>really</em>.”</p>
+<p>“I see patches of light. I think… even regular surfaces, they reflect light to <em>some</em> degree.”</p>
+<p>“Sure. Listen, what I need to know is… which direction do I run?”</p>
+<p>“Run?”</p>
+<p>“I’ll take a guess, if you have to give me one, Rose. Just lie convincingly. I’ll lose heart if I don’t buy it.”</p>
+<p>“Your three o’clock,” she said.</p>
+<p>Nothing more. No details. No explanation on why it was the right direction.</p>
+<p>Right.</p>
+<p>I needed to run, but there weren’t any meaningful gaps, now.</p>
+<p>If I assumed these things were <em>stupid</em>, that they were programmed or strictly following orders… if they’d been <em>ordered</em> not to hurt me unless it was in retaliation or because there was no other way to get past me…</p>
+<p>I looked back at the one that stood on the ice.</p>
+<p>Slowly, carefully, I stepped back onto the frozen pond.</p>
+<p>The ice cracked. I drenched one boot. It was waterproof enough that only a trace of the freezing water touched my foot.</p>
+<p>Too close to the break I’d made to talk to Rose.</p>
+<p>“Blake?”</p>
+<p>I circled around a bit further. The bird-masks at the leftmost edge began to take longer strides, to move around and cut me off.</p>
+<p>This time, I stepped onto the ice with care, a distance from the break I’d made before.</p>
+<p>I backed up, towards the one with three masks on the far end of the pond.</p>
+<p>I watched as others stepped forward, maintaining a roughly even distance. I saw as the one with the wreath avoided the crack in the ice.</p>
+<p>Each step was a careful one as I made my way towards the middle of the pond. I transferred my weight with care, doing my best to avoid putting too much weight on one point at once. The three-masked one moved to cut me off, keeping me on the ice.</p>
+<p>I heard the faintest cracking sounds. Around me, not <em>them</em>.</p>
+<p>I made a beeline straight for three-masks.</p>
+<p>I saw the hands come out.</p>
+<p>Woman’s hands, oddly enough, with flecks of nail polish still on one. Wizened, worn, abused, with bits of nail splintered off where they had maybe scraped violently against something.</p>
+<p>The faint cracking sound intensified. The stress of my weight was going to break the ice right beneath me.</p>
+<p>Right.</p>
+<p>I ran, and the ones behind me ran to follow.</p>
+<p>The ice didn’t break beneath them. My heart sank.</p>
+<p>I collided head-on with three-masks, and felt her stab at my shoulders through my coat, clawing through fabric with no heed for her own well being. Frenzied, violent and noisy after the almost tranquil quiet.</p>
+<p>I broke away, as best as I could, and she followed. I tried to find a path that would get her to back off, give me <em>two seconds</em>, and she refused to give it to me.</p>
+<p>Up until I stepped onto the ice at the edge and it broke, soaking my boot. This time, it lapped around the skin at my calf, soaking my jeans. A glance back verified the others had stopped when I had started fighting.</p>
+<p>Three-masks began stalking around, cutting off my retreat.</p>
+<p>I didn’t care. Reaching down, I grabbed a snow-covered rock the size of my head, heaving at it. It was half-frozen into the earth. Prying it loose put it into the water, forcing me to get my uninjured hand wet to pick it up.</p>
+<p>In one motion, full-body, I managed to heave it about three feet. I watched it bounce off the ice and slide, uselessly, towards the middle of the spread out bird-masks.</p>
+<p>It lay there for a good ten seconds before the ice broke. I watched as the things plunged into the water.</p>
+<p>Leaving me with only two to deal with.</p>
+<p>I ran, fueled by desperation.</p>
+<p>I ran, fueled by the adrenaline that pain was dumping into my body. Through shock and fear. Nothing conserved, nothing saved.</p>
+<p>Thick trees tore at me, costing me my toque. My frozen hand and foot were throbbing, now, and my injured hand was so cold I couldn’t open my fist.</p>
+<p>Every footstep hurt, and the only thing that kept me putting one foot in front of the other was the idea that one more of those things might appear to bar my way if I slowed down in the slightest.</p>
+<p>I found the end of the trees. A strip of snow. A line of road.</p>
+<p>Squat, short buildings, and a sign reading ‘truck inspection area’.</p>
+<p>Headlights flared in my field of vision, blindingly bright.</p>
+<p>I staggered forward, collapsing onto my hands and knees. I could hear a vehicle’s door open.</p>
+<p>Fuck, fuck, fuck. If they came-</p>
+<p>But there was nothing. The wind stirred swirls of snow across the road,</p>
+<p>“Good god, man,” a deep voice said. “What the hell did you get yourself into?”</p>
+<p>I thought about explaining, about the <em>others</em>. I’d sound crazy.</p>
+<p>I thought about making an excuse, saying I was chased by some delinquent kids. It would get the police involved, and it would delay me.</p>
+<p>“Car broke down,” I said, a little numb. “I thought I’d take a shortcut, got turned around. I- I- panicked. I started running and got hurt.”</p>
+<p>“We’ll get you an ambulance, not to worry.”</p>
+<p>“No. No, it’s not as bad as it looks. I’d be embarrassed,” I lied. I wasn’t sure where things stood. If they came after me while I was in the hospital, I wasn’t sure I’d be able to <em>walk</em>, let alone run.</p>
+<p>“You look nearly dead.”</p>
+<p>“I need to warm up. That’s all.”</p>
+<p>I glanced over my shoulder, nervously. The things still hadn’t made an appearance. They should have caught up by now.</p>
+<p>“If I don’t get you to a hospital, and you die-”</p>
+<p>“I’m not going to die,” I said, not sure if I was lying. “Drop me off at the rest stop, I’ll warm up and get food. I’ll hitch a ride to where I need to be.”</p>
+<p>“If you’re positive,” he said. “I don’t want you haunting me or anything, and I don’t want lawsuits either. I don’t make that much money.”</p>
+<p>He nodded. “Sure, then. You need help getting up?”</p>
+<p>“Just a bit,” I admitted.</p>
+<p>We made our way around, and I climbed up into the passenger seat. The heating was already on, and I held my hands out to warm them.</p>
+<p>Looking out through the windshield, I could see a trace of pink in the sky.</p>
+<p>Was that a rule, here? No monsters after sunrise, or no monsters when others could see?</p>
+<p>The truck pulled away, moving down the long road. I could see the rear half of the rest stop creeping into my vision.</p>
+<p>I made eye contact with Rose, in the side-view mirror.</p>
+<p>She looked drained, haggard. Almost worse than I did.</p>
+<p>She’d broken the mirror, and it had taken something out of her. To look this drained… she’d broken the ice, or she’d helped it along. A bit of an extra push.</p>
+<p>The truck driver circled the long way around, pulling into the eighteen-wheeler’s spot for the rest stop. We climbed out and made our way to the shop opening, where employees were setting up at the fast food places.</p>
+<p>As the truck driver talked to some employees, negotiating a way to get me to my stop, I saw a man in the corner with an oddly crooked stance, leaning against the wall as if his limbs wouldn’t hold him up, the whites of his eyes too white as he tracked us with his gaze. Staying out of the way, almost out of sight.</p>
+<p>We’d have a relatively safe way to the house, soon enough. We couldn’t get there fast enough, for the shelter or the answers we could find there.</p>`;
+
+module.exports = { firstPage, lastPage, bonds1_2 };

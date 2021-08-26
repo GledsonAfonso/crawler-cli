@@ -206,6 +206,22 @@ describe('book service', () => {
             
             _comparePages(page.entry, pactFixture.lastPage);
         });
+
+        test('should be able to deal with some corner cases in Pact that contains tags for "Last Chapter" and "Next Chapter"', async () => {
+            const { typos } = environment[Book.PACT];
+            const currentPageUrl = 'https://pactwebserial.wordpress.com/2013/12/17/bonds-1-2/';
+    
+            const page = await getPageFor({
+                book: Book.PACT,
+                currentPageUrl,
+                typos
+            });
+    
+            expect(page.title).toBe('Bonds 1.2');
+            expect(page.nextPageUrl).toBe('https://pactwebserial.wordpress.com/2013/12/24/bonds-1-3/');
+    
+            _comparePages(page.entry, pactFixture.bonds1_2);
+        });
     
         test('should be able to get the first page for Twig', async () => {
             const { firstPageUrl, typos } = environment[Book.TWIG];

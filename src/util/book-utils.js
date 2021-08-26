@@ -18,6 +18,7 @@ const getEntry = (webpage, typos) => {
     $('div.sharedaddy').remove();
 
     $('div > p > a:contains("Last Chapter")').parent('p').remove();
+    $('div > p > strong > a:contains("Last Chapter")').parent('strong').parent('p').remove();
     $('div > p > strong > a:contains("Previous")').parent('strong').parent('p').remove();
     $('div > p > a > strong:contains("Previous")').parent('a').parent('p').remove();
     
@@ -25,7 +26,7 @@ const getEntry = (webpage, typos) => {
     $('div > p > strong > a:contains("Next")').parent('strong').parent('p').remove();
 
     $('div > p > em:contains("Brief note from the author:")').parent('p').remove();
-
+    
     let entry = $('div.entry-content').html().trim();
 
     entry = removeTyposFrom(entry, General);
