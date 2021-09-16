@@ -21,6 +21,7 @@ const getEntry = (webpage, typos) => {
     $('div > p > strong > a:contains("Last Chapter")').parent('strong').parent('p').remove();
     $('div > p > strong > a:contains("Previous")').parent('strong').parent('p').remove();
     $('div > p > a > strong:contains("Previous")').parent('a').parent('p').remove();
+    $('div > p > a > strong:contains("Chapter")').parent('a').parent('p').remove();
     
     $('div > p > a[title="Next Chapter"]').parent('p').remove();
     $('div > p > strong > a:contains("Next")').parent('strong').parent('p').remove();
