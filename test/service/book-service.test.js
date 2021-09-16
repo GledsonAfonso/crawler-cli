@@ -209,9 +209,9 @@ describe('book service', () => {
 
         test('should be able to deal with some corner cases in Pact that contains tags for "Last Chapter" and "Next Chapter"', async () => {
             const { typos } = environment[Book.PACT];
-            const currentPageUrl = 'https://pactwebserial.wordpress.com/2013/12/17/bonds-1-2/';
+            let currentPageUrl = 'https://pactwebserial.wordpress.com/2013/12/17/bonds-1-2/';
     
-            const page = await getPageFor({
+            let page = await getPageFor({
                 book: Book.PACT,
                 currentPageUrl,
                 typos
@@ -221,6 +221,19 @@ describe('book service', () => {
             expect(page.nextPageUrl).toBe('https://pactwebserial.wordpress.com/2013/12/24/bonds-1-3/');
     
             _comparePages(page.entry, pactFixture.bonds1_2);
+
+            currentPageUrl = 'https://pactwebserial.wordpress.com/2014/04/08/conviction-5-1/';
+    
+            page = await getPageFor({
+                book: Book.PACT,
+                currentPageUrl,
+                typos
+            });
+    
+            expect(page.title).toBe('Conviction 5.1');
+            expect(page.nextPageUrl).toBe('https://pactwebserial.wordpress.com/2014/04/12/conviction-5-2/');
+    
+            _comparePages(page.entry, pactFixture.conviction5_1);
         });
     
         test('should be able to get the first page for Twig', async () => {

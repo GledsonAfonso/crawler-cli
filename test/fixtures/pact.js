@@ -1017,4 +1017,385 @@ const bonds1_2 = `<p>I was dressed and heading out the door in less than a minut
 <p>As the truck driver talked to some employees, negotiating a way to get me to my stop, I saw a man in the corner with an oddly crooked stance, leaning against the wall as if his limbs wouldn’t hold him up, the whites of his eyes too white as he tracked us with his gaze. Staying out of the way, almost out of sight.</p>
 <p>We’d have a relatively safe way to the house, soon enough. We couldn’t get there fast enough, for the shelter or the answers we could find there.</p>`;
 
-module.exports = { firstPage, lastPage, bonds1_2 };
+const conviction5_1 = `<p>Policemen surrounded me, flashlights sweeping over snow and tree until they fell on me. Haggard me, still bearing some small wounds from my previous outings.</p>
+<p>They had to have been following me in the dark. A dozen officers, some wearing different clothes, implying different rank or duties. Crime scene guys, maybe? A local police chief, on top of regular officers?</p>
+<p>I hadn’t seen the connections, but I hadn’t been looking for them. Not really.</p>
+<p><em>Fuck</em>.</p>
+<p>Could I run? Yeah. Could I run and actually get away? I couldn’t imagine doing it without hurting someone along the way. There were too many cases where I might get shot.</p>
+<p>And even if I did succeed, I couldn’t say for sure if whoever had tipped them off had given them my name, specifically. No use running if they could find me sleeping at home in a matter of hours.</p>
+<p><em>Fuuuuck.</em></p>
+<p>I slowly raised my hands over my head.</p>
+<p>“Turn to face the rocks!”</p>
+<p>I did.</p>
+<p>“What do I do?” Evan asked me.</p>
+<p>I glanced at him, pursing my lips, and shook my head a little. Couldn’t talk to him, not without raising more questions.</p>
+<p>I heard the officers shuffling closer. The lights became brighter.</p>
+<p>“Place your arms straight behind your back.”</p>
+<p>“Yes sir,” I said. I spoke as clearly as I could, “Before I cooperate, I’d like to make it clear that I’m something of a specialized handyman by trade. I have one bladed tool at my left hip, and several small, sharp objects in my pockets. You may unwittingly hurt yourself if you aren’t careful. I can and will try to tell you what is where, given the chance, while you search my person.”</p>
+<p>“Hands behind your back, <em>now</em>.”</p>
+<p>I placed my arms straight behind me. “Was I understood?”</p>
+<p>“You were heard.”</p>
+<p>I felt cuffs settle in place around my wrists. They pulled off my gloves.</p>
+<p>“I am presently arresting you on suspicion of the first degree murder of one Evan Matthieu.”</p>
+<p><em>Fuck, fuck, fuck.</em></p>
+<p>“You have the right to retain and instruct any counsel without delay. You also have the right to free and immediate legal advice from duty counsel, by making free telephone calls. We are presently outside of ordinary business hours, so the phone number you’d call would be…”</p>
+<p>He rattled off a telephone number. I was in the midst of trying to commit it to memory when another officer stooped down not far from where I’d been crouched, and saw the body.</p>
+<p>“Christ,” the man said. “Boy’s here.”</p>
+<p>“Do you understand?” the arresting officer asked me.</p>
+<p>“What was the number again?” I asked.</p>
+<p>“Anyone in the Toronto PD can and will provide it on request, at any time from this point onward. Do you understand this and everything else I told you?”</p>
+<p>“Yes,” I said.</p>
+<p><em>I understand this has to be Laird fucking with me. Third time is a charm, and Laird may have won this round.</em></p>
+<p>“Do you wish to call a lawyer?”</p>
+<p>“Yes,” I said.</p>
+<p>“Then we will provide a phone and phone book to call a lawyer at the nearest opportunity, as there’s no cell service here. Is this understood?”</p>
+<p>“Yes.”</p>
+<p>“You also have the right to apply for legal assistance through Ontario’s legal aid program. Do you understand?”</p>
+<p>“Yeah,” I said. I felt like every question hammered a nail into this particular coffin.</p>
+<p>“I’m going to give you this formal warning. You need not say anything. You have nothing to gain from any promise or favor and nothing to fear from any threat whether or not you say anything. Anything you say can be used as evidence. Do you understand?”</p>
+<p>“I understand,” I said.</p>
+<p>“I’m going to search you. You said there were needles?”</p>
+<p>“No needles. At my left hip, there’s a decorated hatchet. The blade is uncovered and facing forward. If you raise my jacket and shirt, you’ll find it.”</p>
+<p>He did, withdrawing June. “One concealed weapon.”</p>
+<p>I bit my lip. Given a chance, I would have tried to argue the point, justify it… but speaking wouldn’t help me.</p>
+<p>He handed it to someone I couldn’t see. I heard the rustle of a bag.</p>
+<p>“In my right pocket, there’s a box-cutting knife with the blade retracted, and several loose hook cutting screws.”</p>
+<p>“Another concealed weapon,” he said.</p>
+<p>He took his time checking my pockets for the hook screws, pulling it inside out and letting one or two of the remaining ones fall into the snow.</p>
+<p>“Aside from the keys in my left pocket, I think that’s the only thing that could cut or stab you,” I said.</p>
+<p>Without a thank-you, he switched to a rougher form of frisking me. I bit my lip and stared up at the snow-covered branches above me, resisting the urge to flinch at or react to the rough contact. He relieved me of the pretty-much-empty jar of glamour, twine, a black magic marker, the locket that had been wound around my hand-</p>
+<p>He popped the locket open, and my heart nearly stopped.</p>
+<p>Between the gloom, with the flashlights being angled elsewhere, and the direction I was facing, I couldn’t see if the hair happened to fall out.</p>
+<p><em>Fuck it all.</em></p>
+<p>“If it’s alright, sir, I’d like to start walking him back,” the arresting officer said. “Get back to my car, where it’s warm, get him to the station so everyone can do what needs to be done here.”</p>
+<p>“Yeah,” an older man said. “Take some with you. Thomas? Max? Eyes on him, and on each other. Talk to the chief when you get back, I’ll phone in whatever we’ve got soon. Be good.”</p>
+<p>Be good? What happened when they were bad?</p>
+<p>They started me walking. Here and there, the ground dipped, but the snow didn’t, causing me to sink in to knee-depth. We forged on as a group, moving in a straight line.</p>
+<p>After the brighter flashlights, the woods seemed particularly dark.</p>
+<p>“Murdering a kid? That’s about as fucked as it gets,” one of the other officers said, after we were out of earshot.</p>
+<p>“There are other possibilities that are <em>more</em> fucked,” the arresting officer said. “But I’m not ruling <em>that</em> out, either.”</p>
+<p>I didn’t rise to the bait.</p>
+<p>I did, however, note Evan standing nearby. Eyes wide.</p>
+<p>The going got a little rougher, and I wasn’t talking, so they shifted focus towards moving forward and keeping a firm grip on me so I wouldn’t tip over.</p>
+<p>I saw Evan flicker. He stopped in his tracks.</p>
+<p>I moved on, and Evan remained in the forest.</p>
+<p>We were taking a much different route out than the one I’d taken in. We descended a steep hill, and reached a road where police cars were lined up. Very possibly parked in Evan’s neighborhood.</p>
+<p>They opened the car door, and I flinched at the contact of hand on head, as the officer pushed me down, simultaneously protecting my head from hitting the top of the car.</p>
+<p>I thought I could maybe see Evan standing at the top of the hill, watching me go.</p>
+<p style="text-align:center;">■</p>
+<p style="text-align:left;">I’d been booked, everything entered in the database. Phone calls had been made made, my free legal counsel was en route.</p>
+<p style="text-align:left;">The room was smaller than those shown on television. A desk, like a broader version of a student’s desk, took up the majority of the long, narrow room. A beaten-up metal folding chair was in one corner. The other chairs looked far more comfortable, padded and all.</p>
+<p style="text-align:left;">I wasn’t surprised when they uncuffed me and indicated the metal chair, seating me so I faced the door. It was cramped, claustrophobic, which I assumed was the point. I could lean left, and my shoulder would touch the one-way mirror to my left. Lean right, and the front of the long desk would dig into my elbow.</p>
+<p style="text-align:left;">One officer sat to my right, the other situated across from me. I was cornered, quite literally, back and shoulders to walls, effectively surrounded. The mirror made it feel like there were more people to my left.</p>
+<p style="text-align:left;">I <em>looked</em> to confirm, and realized there <em>were</em> people in that room. Didn’t help the ‘surrounded’ feeling.</p>
+<p style="text-align:left;">It was the one that faced me that was apparently going to do the talking. He looked young, no older than thirty-five, maybe as young as thirty. He had dark, curly hair that was cut to an almost crew-cut length. He left the door open, standing by his chair as he took his time removing his jacket, shaking loose moisture from his gloves before putting them in his jacket pockets, and hanging it up on the back of the door.</p>
+<p style="text-align:left;">Standing over me. A broad shouldered, older guy, in better shape than I was. Not that I was in <em>bad</em> shape, fitness-wise, but he was in better shape.</p>
+<p style="text-align:left;">He shut the door, then took his seat, facing me head on.</p>
+<p style="text-align:left;">“I gotta ask, what the fuck happened to you?” he asked.</p>
+<p style="text-align:left;"><em>I just dealt with an imp and a giant goblin beast thing</em>.</p>
+<p style="text-align:left;">I wanted to make a crack, to say something like, ‘I got arrested and brought here’, but I didn’t want to be one of the idiots on TV who got reamed out by their lawyer for trying to be smart or help themselves.</p>
+<p style="text-align:left;">“Is it just poor quality of life?” he asked. “You said you were a specialized handyman, right?”</p>
+<p style="text-align:left;">“Right now, I’m nothing more than a guy waiting for his lawyer,” I said.</p>
+<p style="text-align:left;">“Fair enough,’ he said. “I can do most of the talking. I wonder what a ‘specialized handyman’ does. Something that involves screws, a fancy axe with wire around the handle. What else? See, I’m trying to put the pieces together, figure out who I’m going to be talking with for the next little while. You called one of the freebie lawyers, right? I guarantee you it’s going to be a while, he or she might even have to see someone else before they get around to you.”</p>
+<p style="text-align:left;">There was nowhere good to <em>look</em>. If I met his eyes, I felt belligerent. if I looked at the floor, I looked guilty. Looking left or right meant I was, indirectly or not, looking at the other cops.</p>
+<p style="text-align:left;">I shut my eyes, instead, shifting position until I could lean my head against the wall behind me.</p>
+<p style="text-align:left;">“Hey,” the officer said. “Hey!”</p>
+<p style="text-align:left;">Shouting just a <em>bit</em> louder than was necessary or expected.</p>
+<p style="text-align:left;">Sending me straight into that ‘fight or flight’ mode, where I was ready for danger, ready to react and move.</p>
+<p style="text-align:left;">He hadn’t moved. He was smiling, as if he was the friendliest guy in the world.</p>
+<p style="text-align:left;">“Now’s not the time for that,” he said. “Looks pretty fucking bad if you’re so relaxed you can fall asleep, with murder charges pending. Looks <em>sociopathic</em>.”</p>
+<p style="text-align:left;">My heart still pounded.</p>
+<p style="text-align:left;">I could bind goblinoid monsters, but <em>people</em> could still put me on edge.</p>
+<p style="text-align:left;">“What else am I supposed to do while I wait for my lawyer?” I asked.</p>
+<p style="text-align:left;">“You can chat with us,” he said.</p>
+<p style="text-align:left;">I gave him a look.</p>
+<p style="text-align:left;">“Or whatever,” he said. “Listen while <em>we</em> talk. Twiddle your thumbs. Think up a good story, if you need one. Do all three at the same time. But you don’t want to go to sleep when you’ve been accused of murdering and maybe doing worse to a damn <em>kid</em>.”</p>
+<p style="text-align:left;">The shift of topic, the reminder of <em>Evan</em>, it wasn’t helping. I was tired, I was on edge, and I didn’t have any ready answers. He kept forcing me to shift mental gears.</p>
+<p style="text-align:left;">Just like the cramped space was designed to make me feel the pressure.</p>
+<p style="text-align:left;">Problem was, this wasn’t a situation where piecing A, B, and C together relieved any of that pressure.</p>
+<p style="text-align:left;">He spoke, “I do some reno work myself, when I have time. But time’s hard to come by, you know?”</p>
+<p style="text-align:left;">When I didn’t answer, the other cop murmured, “Oh yeah, definitely.”</p>
+<p style="text-align:left;">The other cop was a bigger, balding guy, busy taking notes, a pen scribbling away on a pad of paper, constantly moving at the corner of my field of view.</p>
+<p style="text-align:left;">“I like working with my hands. Frees my mind to do other stuff,” the interrogator said. “I swear a lot, get frustrated, but I usually come away feeling accomplished, like I did a good job, and feeling refreshed. As if it’s meditation, but without the yoga bullshit, you know?”</p>
+<p style="text-align:left;">“Why are you hating on the yoga, Dunc? Maybe our guy here likes that stuff.”</p>
+<p style="text-align:left;">‘Dunc’ shook his head, his eyes moving over me, head to toe. “Doesn’t strike me as the type. You’re not the type, are you, bud? Or maybe you’d do it to win over a girl, but you wouldn’t do it for yourself?”</p>
+<p>My mouth stayed shut.</p>
+<p>“Maybe he’s a fag,” the older guy chimed in. Short sentences that cut in, jerking my attention away, much as the constantly moving pen did.</p>
+<p>“Are you a fag, buddy?” the interrogator asked. “Do you prefer sausage to the taste of fish?”</p>
+<p><em>Rationalize it, Blake. Figure out why they’re doing what they’re doing. They wouldn’t stick these guys in a room with you if there wasn’t a very clear, concrete reason for every single action.</em></p>
+<p>They were nettling me. Obviously. If I <em>were</em> gay, I’d be hurt or annoyed at the use of ‘fag’. If I wasn’t, they’d be provoking me to defend my sexuality.</p>
+<p>Thing was, I was in the middle. I wanted to protest the use of ‘fag’ for the sake of my gay friends, for Joel, but not so much that I’d speak before my lawyer arrived. I was straight, but I wasn’t exactly <em>practicing</em> straight. I liked girls, I liked the way girls looked, but I didn’t actively pursue sex, didn’t invest a lot of my own identity in my sexuality.</p>
+<p>I was able to relax, get my bearings, knowing they were on the wrong track, the nettling wasn’t working-</p>
+<p>A hand settled on my knee. I jerked, pulled out of my thoughts, moving my leg to break contact, my hands bracing themselves against the mirror to one side, the desk to the other.</p>
+<p>The room was still for a few pounding heartbeats.</p>
+<p>“He didn’t like that,” the guy to my right said.</p>
+<p>Dunc moved his hand back to his lap. “Nope. I was just going to say, if you <em>are</em> gay, it’s cool. No judgement here.”</p>
+<p>“Say anything you want,” I said. “But say it without touching me, please.”</p>
+<p>“Kind of cocky, giving orders in your situation,” the guy behind the desk said.</p>
+<p>“It’s fine, it’s fine,” Dunc said. He smiled that ever-so-friendly smile of his. “Here, let me move closer, so I can hear you better.”</p>
+<p>He scooted his chair forward, until we were sitting with one of his feet planted between mine. Invading my personal space, making it impossible to move my legs the way I wanted to without bumping into his.</p>
+<p>I’d just given them an in. Stupid, <em>stupid</em>. A crack in my defenses, so to speak.</p>
+<p>“I’m not gay, in case you were worried,” Dunc said. He let the statement hang in the air.</p>
+<p>More bait. More stuff said to invite a response.</p>
+<p>“I’ve got a wife and kid. You?” he asked. “Anyone we could call?”</p>
+<p>“He didn’t say anything about dependents, when we were filling out the arrest sheet,” the other officer said. “I listened to it all, while you were talking to the captain.”</p>
+<p>Each time Dunc asked a question, it was left out there for a moment before the other guy formed a response. It made for a kind of stilted dialogue, one that someone might have <em>itched</em> to fill in. I had little doubt that if I started talking, I’d be rewarded with a very natural conversation.</p>
+<p>“Doesn’t sound good, then,” Dunc said. “A single guy, when you’ve got a dead kid in the woods? Our guys looked at the tracks in the snow, traced them back. You meandered a little, but you seemed to know where you were going. If you stopped and changed direction, well, it looks an awful lot like it was because you were looking for landmarks.”</p>
+<p>“Telling,” his partner said.</p>
+<p>“Doesn’t like being touched? That’s a story unto itself. Another point against the man, as far as I’m concerned. I wonder what the hatchet and knife were for.”</p>
+<p>“Twine too.”</p>
+<p>“Cut up the poor little dead kid, tie it all up with twine?” Dunc asked, leaning forward, further into my personal space.</p>
+<p>His gaze didn’t waver as his eyes locked with mine. Cold, accusatory.</p>
+<p>“I think that sort of fucked up speculation suggests an awful lot more about you than it does about me,” I said.</p>
+<p>He smirked, then leaned back. “You’re not joining in on the small talk, so I don’t have much else to do to while away the time except try to figure out what you did, what you were planning, and <em>why</em>.”</p>
+<p>“Speculations like why are you out walking out in the woods tonight? Woods a <em>long</em> way from home? Woods that just so happen to have a dead boy crammed in under some large rocks?”</p>
+<p>“Coincidence,” Dunc said. “Eh? Just random chance?”</p>
+<p>I needed a way out, and they weren’t giving me a chance to string thoughts together.</p>
+<p>I had… quite possibly less than twenty four hours to get the last demon bound and handed over to Conquest.</p>
+<p>I needed more time to talk to the astrologer, to get my ducks in a row so I could actually do something once the demon was captured and handed over.</p>
+<p>“They found blood on the hatchet. Five second test to do, not a good result,” Dunc said.</p>
+<p>“Yeah?” his partner said.</p>
+<p>“Captain said so,” Dunc said. He stood, which put his body a foot or so away from my face, and stretched. Well inside my personal space.</p>
+<p>Blatant, but it <em>worked</em>. It bothered me. More than a little.</p>
+<p>“Don’t fidget,” the cop to my right said, his voice low. “Doesn’t look good. Makes you look guilty.”</p>
+<p>I was bouncing my knee. I stopped.</p>
+<p>“You <em>really</em> need to calm down,” Dunc said. He sat down, shifting his seat. A jerky, sudden movement that prompted me to do the exact opposite of what he was recommending.</p>
+<p>Didn’t help that being told to calm down was one of the most enraging things that someone could tell you. Doubly so when that person was an asshole.</p>
+<p>“Still bugging me,” he said. He leaned closer, “Scars, marks, bleeding… how does a guy get injuries like that?”</p>
+<p>“Stand in front of the ‘out’ end of a wood chipper?” his partner suggested.</p>
+<p>“Tell you what,” Dunc said, looking at me. “I’m <em>dying</em> for a coffee. Tell me, even <em>make something up</em>, so long as you make it convincing enough to satisfy my curiosity, and I’ll go get my coffee, and I’ll get you anything you want out of the vending machine. Or out of the break room, if you’re in the mood for something warm.”</p>
+<p>I shook my head.</p>
+<p>He moved, sudden, in my space, and I flinched much as I had before, hand gripping table’s edge, so I wouldn’t hit him.</p>
+<p>But he was only standing, a sudden, forward movement, right when it had looked like he was settling in for a long sit.</p>
+<p>“<em>Relax</em>,” he said. “Jesus, I’d thought you’d ease up a bit after the first few times.”</p>
+<p>“PTSD?” his buddy asked.</p>
+<p><em>Keep your mouth fucking shut, Blake Thorburn</em>, I told myself.</p>
+<p>“Might be, but as far as I’m concerned,” Dunc said, “He could be nervous because he’s worried about what’s going to happen to him. Hurting a kid? You’re in for absolute <em>misery</em>. A long, long sentence, nothing good for you in there, nothing good that comes after.”</p>
+<p>“Law says we need <em>reasonable</em> doubt,” the other guy said. “You know what that is? That’s where anyone who’s not an idiot would be able to say you did it. We’ve <em>got</em> that.”</p>
+<p>Dunc nodded, still standing so he loomed over me. “You think you’re playing this smart, but <em>this</em> doesn’t matter. It’s formality, rounding things out, answering some questions. TV, movies, they tell you all this stuff about how you’re supposed to play it, but they don’t touch on how it really goes. The reality is that your average cop isn’t a twenty-something actor with capped teeth. <em>I’m</em> about as good looking as they get.”</p>
+<p>Every smartass, sarcastic, petty part of me strained at the bit to throw in a remark in response to that.</p>
+<p>“Real cops? Real cops are mostly old men. Baby boomers, crammed into the real jobs, while the rest of us struggle to get by. I had to work my ass off, I had to be smart, get a proper education, get strings pulled, and I only barely squeezed in. You worked hard, maybe, and you weren’t so lucky. Was that it?”</p>
+<p>I shrugged.</p>
+<p>“This is where I’m supposed to tell you I’m one of the clever ones. That I’m one of your only shots at being <em>listened</em> to. But I’m not. If you want to be heard, get your story out there, then you’re going to have to work at it, even with me. Every moment you wait, all those old and stubborn sons of bitches in this building are going to be telling themselves one thing. They’re probably going to decide what the answer is, search out evidence that connect the dots, and things will start building momentum.”</p>
+<p>“You always hear about the people who go in for decades, when they’re completely innocent. Pattern’s the same,” his buddy said. “Cops want a conviction because of racism, or because the crime’s serious.”</p>
+<p>“Dead kid serious,” Dunc said.</p>
+<p>“Yeah… and you’ve got an overworked lawyer who’s not really making money, who’s too busy to show up for a few <em>hours, </em>who fucks up, or who just can’t argue whatever it is that needs to be argued. Guy goes in, and they don’t get out until it turns out the DNA tests were fucked up, or the Judge was a lunatic.”</p>
+<p>“Tragedy,” Dunc said.</p>
+<p>“You’re making it sound like your average cop is pretty shitty at their job,” I said.</p>
+<p>“Honestly?” Dunc asked. He leaned against the wall. “The average cop is pretty darn good. But average is average. You think about what average usually gets you, and then you figure that half the people out there are <em>below</em> that average. That’s anywhere. Even here. And you can be better than average, while still having a trend that isn’t so good. Like having an awful lot of good cops who are still <em>guys</em>. Guys with families, wives, girlfriends, kids, guys who just want to work and go home at the end of the day.”</p>
+<p>“I get what you’re saying,” his partner said. “Good guys, but you spend too many years on a job, you’ll start to take shortcuts, move things along…”</p>
+<p>“Human nature,” Dunc said. “You don’t look like the sort that puts an awful lot of stock in the inherent <em>good</em> of human beings.”</p>
+<p>Truth be told, I believed what he was saying. That people would be inclined to take shortcuts, that this sort of thing <em>happened</em>.</p>
+<p>I met his eyes, but I didn’t agree. “Swing and a miss, <em>Dunc</em>. I-”</p>
+<p>A knock on the window interrupted me, loud enough to make me jump. Right next to my ear, no less.</p>
+<p>It wasn’t so much the surprise that bothered me as being ganged up on. Two guys in the room was bad enough, but the reminder that the other guys in the building were poised to throw me off balance? It got to me.</p>
+<p>For a moment, I was back under that bridge, being attacked by a group, being <em>thrashed</em>, too many to protect myself against.</p>
+<p>Yet my answer didn’t change.</p>
+<p>I thought of the Knights. Of Maggie. Of Paige. Of Joel, Alexis, Tiffany, and my other friends. Hell, of <em>Evan</em> that tenacious little boy who’d held out as long as he had.</p>
+<p>They outweighed the bad. They’d helped me out.</p>
+<p>I <em>did</em> believe in the inherent goodness of humanity.</p>
+<p>“One second,” Dunc said. He had a smug half-smile on his face.</p>
+<p>They’d called him, and they’d timed it to interrupt at just the right moment. No doubt there was a procedure for interrogations, and putting me off balance was part of it.</p>
+<p>Dunc opened the door, blocking it with his body so I couldn’t see out.</p>
+<p>I only heard bits.</p>
+<p>Lawyer. Coffee.</p>
+<p><em>Behaim.</em></p>
+<p>As that last word was spoken, he looked over his shoulder at me.</p>
+<p>I <em>looked</em>, and I saw the connections that emanated from him. Nothing strange, nothing that suggested anything special.</p>
+<p>But, still, there was a connection, one that moved in the same direction one of <em>my</em> connections did. Right in the direction of Jacob’s Bell.</p>
+<p>A moment passed, and he returned to the room, a large mug in hand, something topped with foam. A latte.</p>
+<p>“Your lawyer’s here,” he said, stirring his latte. He took a seat, smiling. “Be just a second.”</p>
+<p>My lack of response this time was a wary one, not a sensible one.</p>
+<p>“If that’s the case, I’m going to pop out and get myself something to drink,” his partner said.</p>
+<p>“Sure, Max,” Dunc replied.</p>
+<p>I tracked the connections, saw the people moving. Reorganizing.</p>
+<p>I saw the focus drop away from Dunc and me both, from the other side of that mirror.</p>
+<p>I saw the sole remaining connection flicker and die. Something digital.</p>
+<p>There were the two of us in the room, and nobody was looking.</p>
+<p>Dunc picked up his latte and rested it on one knee, scooting back a little, respecting my space.</p>
+<p>I could see the foam. He’d drawn a rune into it, so it floated on top of his drink.</p>
+<p>I was reminded of the first time I’d seen a rune. In a coffee shop, no less.</p>
+<p>“Dunc… Behaim?” I asked.</p>
+<p>“<em>Duncan</em> Behaim,” he confirmed. “Officer Duncan Behaim, to be exact.”</p>
+<p>“Laird’s your dad?”</p>
+<p>“Uncle,” he said. “He’s my uncle. The family likes to have a few key people in spots around the town, to keep an eye on things. People who can fly under the local Lord’s radar, for the most part, keep an eye on important business.”</p>
+<p>“You <em>know</em> I didn’t do this,” I said, “don’t you?”</p>
+<p>He nodded. He smiled some, “I kind of wish they hadn’t let that slip. This next part would be <em>far</em> more effective if you were in the dark.”</p>
+<p>“What goal does this serve?” I ask. “Hurting me for the sake of hurting me?”</p>
+<p>“You’re a diabolist,” he said. “You’re a threat to the family, you went after Uncle Laird, you’re a threat to <em>everything</em>. I don’t even have to get you sent to jail. All I have to do, apparently, is keep you in custody for the next twenty-four hours. Anything else is extra.”</p>
+<p>“You hate me,” I said.</p>
+<p>“I don’t. Honestly. I <em>do</em> think you’re dangerous. I think you’re even the unwitting sort of dangerous, which you get when you have too much knowledge and not enough <em>information</em>.”</p>
+<p>“And if this goes sour? If you push me a step too far, and I say the wrong name a few too many times?”</p>
+<p>“Oh, I’m going to stay close. I can bend certain rules, ensure that nobody thinks too hard about my presence somewhere. If you start, then you prove we’re right, that you’re a monster that needs to be put down. I fill you with bullets, and then the family, our new allies included-”</p>
+<p>“The Duchamps.”</p>
+<p>“-The Duchamps… they all help to bend more rules, shift things to a satisfying conclusion. Altered memories, altered focus, a bit of rewriting and pressure in the right places. I walk away free and clear, having served my family and all of humanity.”</p>
+<p>I nodded.</p>
+<p>“The <em>extras</em> I talked about? Putting you away for a long time? It’s sensible. It means things like what happened in Etobicoe don’t happen again.”</p>
+<p>“I <em>bound</em> that thing,” I said.</p>
+<p>“And you <em>gave it away</em>.”</p>
+<p>“There’s more going on than you understand.”</p>
+<p>“I know just about <em>everything </em>that’s gone on. I know that this is one situation where crippling you, reducing you to something <em>smaller</em>, it’s for the best. We already have officers talking to your friends, who may well not be your friends after this. They’re turning your apartment upside-down. Above all else, we’re going to keep you for the day. Your lawyer <em>isn’t</em> magical. When it counts, I can shift things one way or the next, and you’re not in a position to stop me.”</p>
+<p>“Cheating the system you serve,” I said.</p>
+<p>“Serving the system with a little cheating,” he said. “Nudges, but nudges are all we need.”</p>
+<p>“Nudges like the ones you used to keep me from noticing the eyes on me, or that you were a practitioner?”</p>
+<p>He smiled, but he didn’t answer my question. “A friendless, homeless diabolist is easier to keep track of. If we <em>dismantle</em> you, then your actions reach only so far. They’re easier to contain. This is doubly true if you’re forsworn, or you’ve upset the local Lord through an inability to carry out the tasks you were set. If you die, our family can deal with the next member of your family. If you don’t… if you’re reduced to a husk of a man in a cell, well, the family gets its peace and quiet until we <em>do</em> need you to die.”</p>
+<p>“How do you know everything?”</p>
+<p>“Simple,” he said. “I <em>asked</em>.”</p>
+<p>Asked. Asked who?</p>
+<p>I didn’t imagine he’d tell me.</p>
+<p>He shifted position, looking from latte to door. “The effect is weakening. Breaks plausibility if we delay them too long. Best I break the rune now. On your best behavior, diabolist.”</p>
+<p>He dropped the full latte into the trash can. Breaking the rune in the process, I supposed.</p>
+<p>A moment later, the door opened.</p>
+<p>“Mrs. Harris,” my lawyer introduced herself. I had the impression of a forty year old who looked fifty. Her hair was bleached platinum blonde, her roots showed. That aside, she looked more crisp than I’d expected of a free, crown-appointed lawyer. Not attractive, her face wrinkled by years of stress, but she wasn’t frumpy or rumpled.</p>
+<p>“Hi, Mrs. Harris, I’m Blake Thorburn,” I said.</p>
+<p>“I’ve got your file here,” she said. She took the chair that had been previously occupied by Duncan’s partner. “Given the severity of the charges arranged against you, may I very <em>earnestly</em> recommend a lawyer you’re actually <em>paying</em>?”</p>
+<p>“You can, but unless you’re giving me the cash to do it with,” I said, “I don’t really have the option… the only lawyers I <em>could</em> pay would be one I really don’t want to be in debt to.”</p>
+<p>I saw Duncan smile a bit.</p>
+<p>“Even with a murder charge?”</p>
+<p>“Even with,” I said.</p>
+<p>She twisted in her seat, looking at the two officers. “Give us some privacy?”</p>
+<p>Duncan smiled some, but he joined his partner and left. The door clicked shut.</p>
+<p>The recording device in the other room clicked off, very deliberately this time. Not a rune-induced flickering out.</p>
+<p>“Do you have property you could sell?” she asked.</p>
+<p>Did I? I had my bike.</p>
+<p>I couldn’t help but feel like selling it would be like giving up my last vestige of hope for a normal life, after all this was said and done.</p>
+<p>A faint, stupid, silly hope, but I couldn’t imagine a scenario where I put this whole Diabolist, Thorburn, Laird, Conquest, Demon thing to rest, and I didn’t have the opportunity to ride.</p>
+<p>“No,” I said. “I’m basically one step below a starving artist. I’m the guy who lives off the generosity of the artists.”</p>
+<p>“And a recently acquired property worth a considerable amount.”</p>
+<p>“Can’t sell it, can’t really do anything with it. If I could have, I would have already.”</p>
+<p>“I’m not going to be able to do a very good job for you,” she said. “This would actually be my first murder trial.”</p>
+<p>“I appreciate anything you can do, Mrs. Harris,” I said. “But quite frankly, I think I’m pretty damn screwed.”</p>
+<p>“Did you talk to them?”</p>
+<p>I shook my head. “Not really.”</p>
+<p>“Good,” she said.</p>
+<p>All that effort, and all I got was a ‘good’.</p>
+<p>She fished in her bag, then pulled out a notebook. “Blake Thorburn. They’re accusing you of murdering a little boy. What can you tell me?”</p>
+<p>I finally had a moment to <em>think</em>, and the thoughts weren’t coming together.</p>
+<p>“I… was told to go to that location, earlier. I did, except the police were told something else. They arrived at the same time.”</p>
+<p>“You think you were set up?”</p>
+<p>“I most definitely think so,” I said.</p>
+<p>“Why you?”</p>
+<p>“I can’t say for sure. What I <em>can</em> say is that I have custody of a property worth a surprising amount of money.”</p>
+<p>She nodded. “You think it was a family matter, then?”</p>
+<p>“I think it was <em>a</em> family, two families in particular, but I don’t think it was mine,” I said.</p>
+<p style="text-align:center;">■</p>
+<p style="text-align:left;">The two cops entered the room.</p>
+<p style="text-align:left;">“Your superior officer, too?” Mrs. Harris asked. “I know he’s watching.”</p>
+<p style="text-align:left;">I turned my eyes to the mirror.</p>
+<p style="text-align:left;">An older man with peppery hair and a mustache entered our already cramped interrogation room.</p>
+<p style="text-align:left;">“My client alleges that Officer Behaim here has been influenced by an outside party, a Laird Behaim of the Jacob’s Bell Police Department?”</p>
+<p style="text-align:left;">“My uncle,” Duncan said.</p>
+<p style="text-align:left;">“This same Laird Behaim was apparently questioned recently about the circumstances surrounding the death of a Molly Walker?”</p>
+<p style="text-align:left;">“And it comes full circle,” Duncan said. “Your client’s cousin.”</p>
+<p style="text-align:left;">“You were aware of this?” the older man asked.</p>
+<p style="text-align:left;">“Not entirely.”</p>
+<p style="text-align:left;">“Whatever the justification or explanation, whether it’s true or not, I think it’s sensible to remove your Officer Behaim from this particular case.”</p>
+<p style="text-align:left;">The older man frowned. “Yes. Of course.”</p>
+<p style="text-align:left;">“And, further, my client is concerned because your officer threatened to shoot him, only moments before we entered the room. If we could check the recording device?”</p>
+<p style="text-align:left;">“Of course.”</p>
+<p style="text-align:left;">“If there’s any such threat-“</p>
+<p style="text-align:left;">“Or sign of tampering,” I cut in.</p>
+<p style="text-align:left;">I saw Duncan roll his eyes.</p>
+<p style="text-align:left;">My lawyer gave me a sour look. “Yes, <em>or sign of tampering</em>, then we feel it would be best if Officer Behaim here were removed from the vicinity entirely.”</p>
+<p style="text-align:left;">“You want me removed from duty?” Duncan asked. “I’m a damn good interrogator-“</p>
+<p style="text-align:left;">“From the <em>building</em>,” Mrs. Harris said. “Whether you’re removed from duty is up to your superior officer.”</p>
+<p style="text-align:left;">“Fair enough,” the older man said.</p>
+<p style="text-align:left;">“Borrow your pad?” Duncan asked his partner, as they left the room.</p>
+<p style="text-align:left;">Fuck. A rune?</p>
+<p style="text-align:left;">No. Probably something damning, though.</p>
+<p style="text-align:left;">This was all I could do to defuse the biggest threat. I didn’t expect we’d <em>really </em>be able to get rid of him, but… well, at least he wouldn’t be interfering or working magic mojo on me.</p>
+<p style="text-align:left;">He’d wanted to play it up, to get smug, lord it over me? I’d use it against him.</p>
+<p style="text-align:left;">I was left alone, door locked, while they all shifted to the neighboring room to look at the device.</p>
+<p style="text-align:left;">When they returned, Duncan Behaim wasn’t with them. No mention was made of him.</p>
+<p style="text-align:left;">But, I noted, his partner Max held the pad of paper.</p>
+<p style="text-align:left;">“Let’s get you on record about what happened,” the older man said. He looked to Duncan’s partner. “Max?”</p>
+<p style="text-align:left;">“What brought you to those woods tonight?”</p>
+<p style="text-align:left;">“I was told to go there earlier today.”</p>
+<p style="text-align:left;">“By?”</p>
+<p style="text-align:left;">“I don’t think I could give you a name if I wanted to,” I said.</p>
+<p style="text-align:left;">“And you went? No name, just a request, and you traveled halfway across the city to a very specific destination?”</p>
+<p style="text-align:left;">“Yes,” I said. There wasn’t really a better answer available.</p>
+<p style="text-align:left;">He glanced down at the sheet. “This evening, when you found the body, that was your first time seeing Evan Matthieu?”</p>
+<p style="text-align:left;">Fuck.</p>
+<p style="text-align:left;">That one fucking moment’s hesitation probably felt ten times longer than it actually was.</p>
+<p style="text-align:left;">“That was the very first time I saw him in the flesh,” I said.</p>
+<p style="text-align:left;">“Have you seen him when it <em>wasn’t</em> in the flesh?” he asked.</p>
+<p style="text-align:left;">“I had no contact with him online,” I said. <em>Deflect, deflect</em>. “Or by phone.”</p>
+<p style="text-align:left;">“More specifically… yes or no?”</p>
+<p style="text-align:left;">“That’s a very odd question,” I said, buying time to think.</p>
+<p style="text-align:left;">“To be entirely blunt,” Max told me, “My partner wrote down the word ‘schizophrenic’ with a very large question mark. He’s noted the signs he believe point to this… disheveled appearance, question mark. Hoarding objects and tools, question mark. Self inflicted damage, question mark. Duncan Behaim has an uncanny knack for being <em>right</em> in his assessment of people. Do you <em>see</em> things, Mr. Thorburn?”</p>
+<p style="text-align:left;">“We all see things. It’s why we have eyes,” I said.</p>
+<p style="text-align:left;">“Don’t try to be clever,” my lawyer whispered to me.</p>
+<p style="text-align:left;">“I’ll try to be clearer. Do you see aliens?”</p>
+<p style="text-align:left;">“He wrote down all those questions, huh?” I asked.</p>
+<p style="text-align:left;">“Yes. Do you see aliens?”</p>
+<p style="text-align:left;">“Not as far as I’m aware,” I said. He was reading questions off the paper, and I knew what was coming next. I had to lay groundwork. “But I’m open minded to possibilities.”</p>
+<p style="text-align:left;">“Do you see ghosts, goblins, grumpkins or anything in that vein?”</p>
+<p style="text-align:left;">“I’m open minded to possibilities,” I said.</p>
+<p style="text-align:left;">“Try to be specific. Yes or no?”</p>
+<p style="text-align:left;">“He insisted on yes or no answers, didn’t he?” I asked.</p>
+<p style="text-align:left;">“I find it curious,” Mrs. Harris said, “That you’re relying so heavily on the input of an officer we asked to leave the area.”</p>
+<p style="text-align:left;">“He’s one of our best interrogators, if not the best,” the older man said. “I’m more curious that your client is so disconcerted by this line of questions.”</p>
+<p style="text-align:left;">“You’re implying that I’m crazy,” I said.</p>
+<p style="text-align:left;">“We’re implying nothing at this stage,” the older man said. “We’re only asking simple questions.”</p>
+<p style="text-align:left;">He indicated for Max to continue.</p>
+<p style="text-align:left;">“Yes or no, do you see goblins or anything in that general neighborhood?”</p>
+<p style="text-align:left;">“Do I… have to answer?” I asked.</p>
+<p style="text-align:left;">“You don’t <em>have</em> to do anything,” my lawyer said, “You have the right to not have to give testimony against yourself. But yes, it might be a very good idea to answer.”</p>
+<p style="text-align:left;">“In that case. I exercise my rights, and I don’t answer,” I said.</p>
+<p style="text-align:left;">I could see the change in expression on the officer’s faces.</p>
+<p style="text-align:left;">“Pursuant to section eleven,” Mrs. Harris said. There were nods.</p>
+<p style="text-align:left;">“Do you see goblins every day? Going about their business?”</p>
+<p style="text-align:left;">I sighed, leaning back. “I exercise my right to not self-incriminate.”</p>
+<p style="text-align:left;">“Do you see demons?”</p>
+<p style="text-align:left;">“I exercise my right to not self-incriminate.”</p>
+<p style="text-align:left;">“Do these goblins or demons ever tell you what to do?”</p>
+<p style="text-align:left;"><em>Yes, Pauz had.</em> “I exercise my right to not self-incriminate.”</p>
+<p style="text-align:left;">“Was it these goblins or demons, or something in that general neighborhood, that told you to seek out the boy in the woods?”</p>
+<p style="text-align:left;"><em>That’s a pretty broad neighborhood.</em> “I exercise my right to not self-incriminate.”</p>
+<p>This was going to keep going?</p>
+<p>I looked at my lawyer, but I only saw a note of pity.</p>
+<p style="text-align:left;">“Earlier, you said you were told to go to those woods. By someone or <em>something</em> without a name. Was this someone or something a person you can identify?”</p>
+<p style="text-align:left;">“I exercise my rights, section eleven.”</p>
+<p>He looked down at the page, as if reviewing the questions. After a pause, he asked, “Let me return to my earlier question. Did you have contact with Evan Mattheiu prior to that point we found you in the woods?”</p>
+<p style="text-align:left;">I could feel the tension in the air.</p>
+<p style="text-align:left;">“I exercise my rights not to self-incriminate.”</p>
+<p style="text-align:left;">Silence yawned on.</p>
+<p style="text-align:left;">I fidgeted. I didn’t care, at this point. I was brimming with a sick kind of nervousness. The sort of nervousness that went beyond the nervousness of ‘what if I get fucked/hurt/ruined’ and into the ‘<em>when</em>‘.</p>
+<p style="text-align:left;">I was the one driving nails into my own coffin, now.</p>
+<p style="text-align:left;">“Do you need to talk to your client?” the older man asked Mrs. Harris.</p>
+<p style="text-align:left;">“Yes, but… maybe in the morning, if you’ll accommodate me? I need time to prepare, and… yes.”</p>
+<p style="text-align:left;">“That works,” the older officer said.</p>
+<p style="text-align:left;">I nodded.</p>
+<p style="text-align:left;">“You’ll be taken into custody,” Mrs. Harris said. “Nothing more should follow until I’m contacted first?”</p>
+<p style="text-align:left;">The officer nodded.</p>
+<p style="text-align:left;">“For now, stay put, say nothing more, and we’ll see what options we have. Unless you’d like to reconsider your options, as far as legal aid or who will represent you?”</p>
+<p style="text-align:left;">Mundane options wouldn’t get me anywhere better. Well, maybe a slightly better place.</p>
+<p style="text-align:left;">But my time and energy were better spent working <em>outside</em> the box.</p>
+<p style="text-align:left;">On that note, magical options for aid?</p>
+<p style="text-align:left;">It might well be sheer stubbornness at this point, but no. I knew what <em>those</em> lawyers would ask for, and somehow that bothered me more than if it were up in the air. They were planning something, trying to subvert me, and it seemed like too easy a road to take. I <em>couldn’t</em> play along.</p>
+<p style="text-align:left;">Even if it meant jail, or, worse, an asylum.</p>
+<p style="text-align:left;">“Why don’t you take him downstairs, Max?” the older officer asked. “By himself, so he’s safe, with supervision.”</p>
+<p style="text-align:left;">‘Max’ reached for me, and instinctively Ieaned away from his hand. Which probably didn’t hurt the ‘crazy as fuck’ image.</p>
+<p style="text-align:left;">He remained stock still, not reacting to my flinch. “Turn around.”</p>
+<p style="text-align:left;">I did.</p>
+<p style="text-align:left;">“Hands.”</p>
+<p style="text-align:left;">I gave him my hands.</p>
+<p style="text-align:left;">“I’m not going to touch you,” he said, “Since you don’t like that. But that’s only so long as you cooperate.”</p>
+<p style="text-align:left;">“I’ll cooperate,” I said.</p>
+<p style="text-align:left;">He indicated the door. The older man opened it.</p>
+<p style="text-align:left;">There were <em>so many</em> eyes on me, as I was guided out of the interrogation room. Duncan Behaim’s among them.</p>
+<p style="text-align:left;"><em>Fuck</em>, to put it lightly.</p>
+<p style="text-align:left;">I saw two adults, and a little boy. The adults stared at me with red, puffy eyes.</p>
+<p style="text-align:left;">The little boy broke away from the pair of them. He passed effortlessly through the people and objects in the way, before falling in step with me, walking just to my right. I glanced back at Duncan, and I saw him glance down at the little boy and raise eyebrows.</p>
+<p style="text-align:left;">Evan’s body, it seemed, was somewhere in the building. Somewhere close, in any event.</p>
+<p style="text-align:left;">Good. I needed all the help I could get.</p>
+<p style="text-align:left;">If there was even a chance at getting out of this, much less getting out of this with my life intact, it was a <em>damn slim</em> chance.</p>
+<p style="text-align:left;">I’d done everything right, near as I could figure, and I’d still been screwed.</p>
+<p style="text-align:left;">The natural answer was that I’d need to do something <em>wrong</em> to get out of this.</p>
+<p style="text-align:left;">Fuck that.</p>
+<p style="text-align:left;">With all sincerity, fuck that idea backwards and forwards.</p>
+<p style="text-align:left;">I was not going down that road.</p>
+<p style="text-align:left;">I’d need some more help than just Evan, if I was going to get out of this and seize that slim chance.</p>`;
+
+module.exports = { firstPage, lastPage, bonds1_2, conviction5_1 };
